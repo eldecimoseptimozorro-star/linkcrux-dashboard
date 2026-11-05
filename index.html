@@ -35,7 +35,7 @@
       <section class="panel full" id="channels"><div class="panel-head"><div><h2>主要渠道表现对比</h2><p class="subtitle">会话数 / 天 · 主渠道图不含 Email，全站 UV / PV 保持原口径</p></div><div class="legend"><span><i style="background:var(--blue)"></i>自然搜索</span><span><i style="background:var(--teal)"></i>直接访问</span><span><i style="background:var(--violet)"></i>引荐访问</span></div></div><div id="channel-chart" class="chart"></div><p class="chart-note">按本次会话渠道归因。Direct 不直接等于品牌搜索，活动影响需结合 UTM 进一步识别。</p></section>
     </div>
     <section id="search" class="search-section"><div class="section-line"><h2>搜索平台曝光与点击</h2><span>各平台独立展示，避免与 GA4 到站用户混为同一指标</span></div><div class="search-grid"><div class="panel"><h2>百度 PC 搜索</h2><div id="baidu-notice"></div><div class="table-wrap"><table class="data-table"><thead><tr><th>已核实日期 / 范围</th><th class="num">展现</th><th class="num">点击</th><th class="num">CTR</th></tr></thead><tbody id="baidu-table"></tbody></table></div><p class="chart-note">滚动 30 天快照独立保留，不拆分为每日数据，也不与日记录累加。</p></div><div class="panel"><h2>数据更新状态</h2><div id="source-status"></div><p class="chart-note">更新时间代表该来源的采集状态。网页重新生成不代表所有来源都已取得最新数据。</p></div></div></section>
-    <div class="method"><p>比较口径：同长完整周期。日均 UV 为每日用户总数的平均值；区间去重用户需要单独查询。</p><p>现有 GA4 记录始于 2026 年 9 月 15 日，缺少 8 月 10 日到岗前数据，因此展示阶段变化。</p><p>11 月 3 日直播 EDM 已标注。默认日常运营比较截至活动前一日，勾选后可查看活动日。</p><p>表单行为尚未验证为有效线索，本页暂不使用表单次数代表业务线索。</p></div>
+    <div class="method"><p>比较口径：同长完整周期。日均 UV 为每日用户总数的平均值；区间去重用户需要单独查询。</p><p>现有 GA4 记录始于 2026 年 9 月 15 日，缺少 8 月 10 日到岗前数据，因此展示阶段变化。</p><p>11 月 3 日直播 EDM 已标注。默认排除已标注活动日，勾选后可查看；周期不完整时不计算增长率。</p><p>表单行为尚未验证为有效线索，本页暂不使用表单次数代表业务线索。</p></div>
     <footer><span>LINKCRUX · 官网运营汇报</span><span id="build-time"></span></footer>
   </main>
   <script>
@@ -55,11 +55,11 @@
     function selection(){
       const all=data.ga4.daily, events=new Set(data.annotations.map(a=>a.date));
       let end=all.at(-1).date;
-      if(!includeActivity&&events.has(end))end=shift(end,-1);
+      while(!includeActivity&&events.has(end))end=shift(end,-1);
       const start=range==='all'?all[0].date:shift(end,-range+1);
-      const rows=all.filter(r=>r.date>=start&&r.date<=end), count=rows.length;
+      const rows=all.filter(r=>r.date>=start&&r.date<=end&& (includeActivity||!events.has(r.date))), count=rows.length;
       let baseStart=comparison==='early'?all[0].date:shift(start,-count),baseEnd=shift(baseStart,count-1);
-      let base=all.filter(r=>r.date>=baseStart&&r.date<=baseEnd);
+      let base=all.filter(r=>r.date>=baseStart&&r.date<=baseEnd&& (includeActivity||!events.has(r.date)));
       if(!complete(base,baseStart,baseEnd)||!complete(rows,start,end)||baseEnd>=start)base=[];
       return {all,rows,base,start,end,baseStart,baseEnd};
     }
@@ -101,11 +101,12 @@
       document.querySelectorAll('[data-days]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.days===String(range))));
     }
     function sources(){
+      const ga4Sync=data.ga4.sync_status||{},ga4Text=ga4Sync.status==='failed'?'本次采集未完成':ga4Sync.status==='success'?'官方导出已校验':'等待首次每日采集';
       const search=data.search,pc=search.baidu_daily.filter(r=>r.device==='pc').sort((a,b)=>a.date.localeCompare(b.date)),latest=pc.at(-1),status=search.baidu_status;
-      $('source-strip').replaceChildren();[['GA4',`记录截至 ${data.ga4.data_end} · 待接每日 API`,'warn'],['百度 PC',`已核实至 ${latest?latest.date:'暂无'} · ${status.status==='failed'?'本次核对异常':'采集成功'}`,status.status==='failed'?'warn':'ok'],['网页',`${data.generated_at.slice(0,16).replace('T',' ')} 生成`,'']].forEach(([name,value,dot])=>{const span=document.createElement('span'),mark=document.createElement('i'),strong=document.createElement('strong');mark.className='dot '+dot;strong.textContent=name+' ';span.append(mark,strong,document.createTextNode(value));$('source-strip').append(span);});
+      $('source-strip').replaceChildren();[['GA4',`记录截至 ${data.ga4.data_end} · ${ga4Text}`,'warn'],['百度 PC',`已核实至 ${latest?latest.date:'暂无'} · ${status.status==='failed'?'本次核对异常':'采集成功'}`,status.status==='failed'?'warn':'ok'],['网页',`${data.generated_at.slice(0,16).replace('T',' ')} 生成`,'']].forEach(([name,value,dot])=>{const span=document.createElement('span'),mark=document.createElement('i'),strong=document.createElement('strong');mark.className='dot '+dot;strong.textContent=name+' ';span.append(mark,strong,document.createTextNode(value));$('source-strip').append(span);});
       $('baidu-notice').replaceChildren();if(status.status==='failed'){const p=document.createElement('p');p.className='notice';p.textContent=`${status.target_date||'本次'}：页面与官方导出未对平，该日暂不入汇总，保留已核实记录。`;$('baidu-notice').append(p);}
       const windows=search.baidu_period_snapshots.filter(r=>r.device==='pc').sort((a,b)=>a.as_of_date.localeCompare(b.as_of_date)),period=windows.at(-1);$('baidu-table').replaceChildren();[latest,period].filter(Boolean).forEach(row=>{const tr=document.createElement('tr');[row.period==='day'?row.date:`${row.date_start} — ${row.date_end}`,fmt(row.impressions),fmt(row.clicks),pct(row.ctr)].forEach((text,i)=>{const td=document.createElement('td');td.textContent=text;if(i)td.className='num';tr.append(td);});$('baidu-table').append(tr);});if(!latest&&!period){const tr=document.createElement('tr');tr.innerHTML='<td colspan="4">暂无已核实数据</td>';$('baidu-table').append(tr);}
-      $('source-status').replaceChildren();[['GA4 自动同步','待完成一次性授权与接入'],['百度 PC',status.status==='failed'?'采集已执行，数据未通过核对':'已通过核对'],['百度移动端',search.baidu_mobile_status.status==='pending_date_verification'?'日期范围待核对':'已配置'],['Bing',search.bing_status.status==='pending_registration'?'尚未接入':'已配置'],['访问方式',data.publication?.url?'固定链接 · 无需登录':'本地预览 · 尚未发布']].forEach(([name,value])=>{const row=document.createElement('div');row.className='source-row';const a=document.createElement('span'),b=document.createElement('strong');a.textContent=name;b.textContent=value;row.append(a,b);$('source-status').append(row);});
+      $('source-status').replaceChildren();[['GA4 每日采集',ga4Sync.status==='failed'?'本次未完成，保留已核实数据':ga4Sync.status==='success'?'官方导出已校验':'已排入任务，等待首次成功采集'],['百度 PC',status.status==='failed'?'采集已执行，数据未通过核对':'已通过核对'],['百度移动端',search.baidu_mobile_status.status==='pending_date_verification'?'日期范围待核对':'已配置'],['Bing',search.bing_status.status==='pending_registration'?'尚未接入':'已配置'],['访问方式',data.publication?.url?'固定链接 · 无需登录':'本地预览 · 尚未发布']].forEach(([name,value])=>{const row=document.createElement('div');row.className='source-row';const a=document.createElement('span'),b=document.createElement('strong');a.textContent=name;b.textContent=value;row.append(a,b);$('source-status').append(row);});
       $('build-time').textContent='网页生成 '+data.generated_at.slice(0,19).replace('T',' ')+'（北京时间）';
     }
     async function load(){const b=$('refresh');b.disabled=true;b.textContent='读取中…';try{const response=await fetch('./dashboard-data.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const next=await response.json();if(!next.ga4?.daily?.length)throw Error('缺少已核实 GA4 记录');data=next;sources();render();}catch(error){$('source-strip').textContent='数据读取失败，保留当前显示；请检查数据文件或连接。'+error.message;}finally{b.disabled=false;b.textContent='刷新数据';}}

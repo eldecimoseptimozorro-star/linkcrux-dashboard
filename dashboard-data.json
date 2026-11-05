@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:49:04+08:00",
+  "generated_at": "2026-11-05T13:53:58+08:00",
   "site_url": "https://www.linkcrux.com/",
   "publication": {
     "visibility": "public",
@@ -8,6 +8,15 @@
   "ga4": {
     "mode": "verified_csv_snapshot",
     "automatic_sync": false,
+    "scheduled_collection": true,
+    "sync_status": {
+      "status": "failed",
+      "checked_at": "2026-11-05T13:51:48+08:00",
+      "last_successful_capture_at": null,
+      "target_date": "2026-11-04",
+      "failure_kind": "source_access_unavailable"
+    },
+    "last_successful_capture_at": null,
     "data_start": "2026-09-15",
     "data_end": "2026-11-03",
     "channel_report_complete": true,
@@ -625,7 +634,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-05T11:49:04+08:00",
+    "generated_at": "2026-11-05T13:53:58+08:00",
     "baidu_status": {
       "status": "failed",
       "checked_at": "2026-11-05T10:12:21+08:00",
@@ -683,7 +692,7 @@
   "operations_start": "2026-08-10",
   "limitations": [
     "当前无 8 月 10 日之前的数据，不能计算入职前后增长率。",
-    "GA4 为已核对导出，尚未连接每日 API 同步。",
+    "GA4 按官方导出更新，当前同步状态以来源状态为准。",
     "日均 UV 按每日用户总数求平均，不能替代区间去重 UV。",
     "自然搜索会话与站长平台点击的统计口径不同。"
   ]
