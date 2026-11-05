@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-11-05T13:53:58+08:00",
+  "generated_at": "2026-11-05T16:00:03+08:00",
   "site_url": "https://www.linkcrux.com/",
+  "analysis_review": {
+    "reviewed_on": "2026-11-05",
+    "home_period_start": "2026-10-29",
+    "home_period_end": "2026-11-04",
+    "key_events": 0
+  },
   "publication": {
     "visibility": "public",
     "url": "https://eldecimoseptimozorro-star.github.io/linkcrux-dashboard/"
@@ -634,7 +640,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-05T13:53:58+08:00",
+    "generated_at": "2026-11-05T16:00:03+08:00",
     "baidu_status": {
       "status": "failed",
       "checked_at": "2026-11-05T10:12:21+08:00",
