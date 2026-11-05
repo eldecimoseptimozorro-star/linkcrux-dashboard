@@ -1,0 +1,690 @@
+{
+  "generated_at": "2026-11-05T11:49:04+08:00",
+  "site_url": "https://www.linkcrux.com/",
+  "publication": {
+    "visibility": "public",
+    "url": "https://eldecimoseptimozorro-star.github.io/linkcrux-dashboard/"
+  },
+  "ga4": {
+    "mode": "verified_csv_snapshot",
+    "automatic_sync": false,
+    "data_start": "2026-09-15",
+    "data_end": "2026-11-03",
+    "channel_report_complete": true,
+    "sources": [
+      {
+        "file": "网页和屏幕_日期_截至20261103.csv",
+        "sha256": "52640b1720e40a6baab0e82e7028932045a8f321ab705b84722fe0579e5e0cfc"
+      },
+      {
+        "file": "流量获取情况_渠道与日期_截至20261103.csv",
+        "sha256": "dec8cff12f504e750826957af1e47ab177a90079508bb60cc6c0bd3c1a98ea94"
+      }
+    ],
+    "daily": [
+      {
+        "date": "2026-09-15",
+        "pv": 94,
+        "uv": 34,
+        "new_users": 33,
+        "channels": {
+          "Organic Search": 8,
+          "Direct": 26,
+          "Referral": 0
+        },
+        "organic_engaged": 7
+      },
+      {
+        "date": "2026-09-16",
+        "pv": 85,
+        "uv": 50,
+        "new_users": 48,
+        "channels": {
+          "Organic Search": 25,
+          "Direct": 23,
+          "Referral": 1
+        },
+        "organic_engaged": 17
+      },
+      {
+        "date": "2026-09-17",
+        "pv": 160,
+        "uv": 51,
+        "new_users": 44,
+        "channels": {
+          "Organic Search": 30,
+          "Direct": 29,
+          "Referral": 0
+        },
+        "organic_engaged": 25
+      },
+      {
+        "date": "2026-09-18",
+        "pv": 75,
+        "uv": 36,
+        "new_users": 29,
+        "channels": {
+          "Organic Search": 11,
+          "Direct": 24,
+          "Referral": 1
+        },
+        "organic_engaged": 8
+      },
+      {
+        "date": "2026-09-19",
+        "pv": 51,
+        "uv": 21,
+        "new_users": 18,
+        "channels": {
+          "Organic Search": 14,
+          "Direct": 8,
+          "Referral": 0
+        },
+        "organic_engaged": 8
+      },
+      {
+        "date": "2026-09-20",
+        "pv": 110,
+        "uv": 51,
+        "new_users": 48,
+        "channels": {
+          "Organic Search": 34,
+          "Direct": 23,
+          "Referral": 0
+        },
+        "organic_engaged": 27
+      },
+      {
+        "date": "2026-09-21",
+        "pv": 119,
+        "uv": 45,
+        "new_users": 38,
+        "channels": {
+          "Organic Search": 37,
+          "Direct": 13,
+          "Referral": 0
+        },
+        "organic_engaged": 30
+      },
+      {
+        "date": "2026-09-22",
+        "pv": 118,
+        "uv": 51,
+        "new_users": 42,
+        "channels": {
+          "Organic Search": 23,
+          "Direct": 33,
+          "Referral": 2
+        },
+        "organic_engaged": 17
+      },
+      {
+        "date": "2026-09-23",
+        "pv": 84,
+        "uv": 30,
+        "new_users": 25,
+        "channels": {
+          "Organic Search": 14,
+          "Direct": 16,
+          "Referral": 1
+        },
+        "organic_engaged": 12
+      },
+      {
+        "date": "2026-09-24",
+        "pv": 86,
+        "uv": 31,
+        "new_users": 27,
+        "channels": {
+          "Organic Search": 16,
+          "Direct": 20,
+          "Referral": 1
+        },
+        "organic_engaged": 11
+      },
+      {
+        "date": "2026-09-25",
+        "pv": 16,
+        "uv": 14,
+        "new_users": 10,
+        "channels": {
+          "Organic Search": 4,
+          "Direct": 11,
+          "Referral": 0
+        },
+        "organic_engaged": 1
+      },
+      {
+        "date": "2026-09-26",
+        "pv": 4,
+        "uv": 4,
+        "new_users": 3,
+        "channels": {
+          "Organic Search": 2,
+          "Direct": 3,
+          "Referral": 0
+        },
+        "organic_engaged": 2
+      },
+      {
+        "date": "2026-09-27",
+        "pv": 23,
+        "uv": 7,
+        "new_users": 6,
+        "channels": {
+          "Organic Search": 5,
+          "Direct": 4,
+          "Referral": 0
+        },
+        "organic_engaged": 3
+      },
+      {
+        "date": "2026-09-28",
+        "pv": 37,
+        "uv": 17,
+        "new_users": 13,
+        "channels": {
+          "Organic Search": 5,
+          "Direct": 9,
+          "Referral": 2
+        },
+        "organic_engaged": 4
+      },
+      {
+        "date": "2026-09-29",
+        "pv": 93,
+        "uv": 30,
+        "new_users": 21,
+        "channels": {
+          "Organic Search": 18,
+          "Direct": 13,
+          "Referral": 1
+        },
+        "organic_engaged": 13
+      },
+      {
+        "date": "2026-09-30",
+        "pv": 69,
+        "uv": 27,
+        "new_users": 22,
+        "channels": {
+          "Organic Search": 19,
+          "Direct": 11,
+          "Referral": 0
+        },
+        "organic_engaged": 13
+      },
+      {
+        "date": "2026-10-01",
+        "pv": 9,
+        "uv": 4,
+        "new_users": 3,
+        "channels": {
+          "Organic Search": 1,
+          "Direct": 2,
+          "Referral": 0
+        },
+        "organic_engaged": 1
+      },
+      {
+        "date": "2026-10-02",
+        "pv": 5,
+        "uv": 4,
+        "new_users": 3,
+        "channels": {
+          "Organic Search": 1,
+          "Direct": 3,
+          "Referral": 0
+        },
+        "organic_engaged": 1
+      },
+      {
+        "date": "2026-10-03",
+        "pv": 18,
+        "uv": 7,
+        "new_users": 6,
+        "channels": {
+          "Organic Search": 2,
+          "Direct": 6,
+          "Referral": 0
+        },
+        "organic_engaged": 2
+      },
+      {
+        "date": "2026-10-04",
+        "pv": 10,
+        "uv": 2,
+        "new_users": 2,
+        "channels": {
+          "Organic Search": 2,
+          "Direct": 0,
+          "Referral": 0
+        },
+        "organic_engaged": 2
+      },
+      {
+        "date": "2026-10-05",
+        "pv": 21,
+        "uv": 7,
+        "new_users": 7,
+        "channels": {
+          "Organic Search": 2,
+          "Direct": 5,
+          "Referral": 0
+        },
+        "organic_engaged": 2
+      },
+      {
+        "date": "2026-10-06",
+        "pv": 4,
+        "uv": 5,
+        "new_users": 4,
+        "channels": {
+          "Organic Search": 2,
+          "Direct": 3,
+          "Referral": 0
+        },
+        "organic_engaged": 2
+      },
+      {
+        "date": "2026-10-07",
+        "pv": 32,
+        "uv": 14,
+        "new_users": 12,
+        "channels": {
+          "Organic Search": 4,
+          "Direct": 12,
+          "Referral": 0
+        },
+        "organic_engaged": 4
+      },
+      {
+        "date": "2026-10-08",
+        "pv": 62,
+        "uv": 28,
+        "new_users": 13,
+        "channels": {
+          "Organic Search": 23,
+          "Direct": 6,
+          "Referral": 1
+        },
+        "organic_engaged": 17
+      },
+      {
+        "date": "2026-10-09",
+        "pv": 51,
+        "uv": 25,
+        "new_users": 21,
+        "channels": {
+          "Organic Search": 15,
+          "Direct": 15,
+          "Referral": 0
+        },
+        "organic_engaged": 9
+      },
+      {
+        "date": "2026-10-10",
+        "pv": 57,
+        "uv": 23,
+        "new_users": 20,
+        "channels": {
+          "Organic Search": 12,
+          "Direct": 17,
+          "Referral": 0
+        },
+        "organic_engaged": 7
+      },
+      {
+        "date": "2026-10-11",
+        "pv": 30,
+        "uv": 9,
+        "new_users": 7,
+        "channels": {
+          "Organic Search": 4,
+          "Direct": 4,
+          "Referral": 0
+        },
+        "organic_engaged": 4
+      },
+      {
+        "date": "2026-10-12",
+        "pv": 67,
+        "uv": 31,
+        "new_users": 24,
+        "channels": {
+          "Organic Search": 18,
+          "Direct": 17,
+          "Referral": 0
+        },
+        "organic_engaged": 13
+      },
+      {
+        "date": "2026-10-13",
+        "pv": 44,
+        "uv": 25,
+        "new_users": 20,
+        "channels": {
+          "Organic Search": 15,
+          "Direct": 14,
+          "Referral": 0
+        },
+        "organic_engaged": 7
+      },
+      {
+        "date": "2026-10-14",
+        "pv": 79,
+        "uv": 34,
+        "new_users": 26,
+        "channels": {
+          "Organic Search": 15,
+          "Direct": 17,
+          "Referral": 0
+        },
+        "organic_engaged": 11
+      },
+      {
+        "date": "2026-10-15",
+        "pv": 55,
+        "uv": 24,
+        "new_users": 16,
+        "channels": {
+          "Organic Search": 11,
+          "Direct": 13,
+          "Referral": 0
+        },
+        "organic_engaged": 5
+      },
+      {
+        "date": "2026-10-16",
+        "pv": 81,
+        "uv": 40,
+        "new_users": 30,
+        "channels": {
+          "Organic Search": 16,
+          "Direct": 31,
+          "Referral": 0
+        },
+        "organic_engaged": 9
+      },
+      {
+        "date": "2026-10-17",
+        "pv": 42,
+        "uv": 15,
+        "new_users": 13,
+        "channels": {
+          "Organic Search": 5,
+          "Direct": 12,
+          "Referral": 0
+        },
+        "organic_engaged": 3
+      },
+      {
+        "date": "2026-10-18",
+        "pv": 22,
+        "uv": 11,
+        "new_users": 8,
+        "channels": {
+          "Organic Search": 7,
+          "Direct": 4,
+          "Referral": 0
+        },
+        "organic_engaged": 3
+      },
+      {
+        "date": "2026-10-19",
+        "pv": 107,
+        "uv": 39,
+        "new_users": 30,
+        "channels": {
+          "Organic Search": 23,
+          "Direct": 21,
+          "Referral": 1
+        },
+        "organic_engaged": 17
+      },
+      {
+        "date": "2026-10-20",
+        "pv": 257,
+        "uv": 46,
+        "new_users": 34,
+        "channels": {
+          "Organic Search": 24,
+          "Direct": 32,
+          "Referral": 3
+        },
+        "organic_engaged": 17
+      },
+      {
+        "date": "2026-10-21",
+        "pv": 812,
+        "uv": 45,
+        "new_users": 31,
+        "channels": {
+          "Organic Search": 25,
+          "Direct": 29,
+          "Referral": 5
+        },
+        "organic_engaged": 15
+      },
+      {
+        "date": "2026-10-22",
+        "pv": 551,
+        "uv": 43,
+        "new_users": 31,
+        "channels": {
+          "Organic Search": 24,
+          "Direct": 31,
+          "Referral": 0
+        },
+        "organic_engaged": 20
+      },
+      {
+        "date": "2026-10-23",
+        "pv": 267,
+        "uv": 46,
+        "new_users": 38,
+        "channels": {
+          "Organic Search": 23,
+          "Direct": 32,
+          "Referral": 1
+        },
+        "organic_engaged": 15
+      },
+      {
+        "date": "2026-10-24",
+        "pv": 146,
+        "uv": 19,
+        "new_users": 12,
+        "channels": {
+          "Organic Search": 5,
+          "Direct": 16,
+          "Referral": 1
+        },
+        "organic_engaged": 4
+      },
+      {
+        "date": "2026-10-25",
+        "pv": 24,
+        "uv": 12,
+        "new_users": 12,
+        "channels": {
+          "Organic Search": 6,
+          "Direct": 7,
+          "Referral": 0
+        },
+        "organic_engaged": 4
+      },
+      {
+        "date": "2026-10-26",
+        "pv": 143,
+        "uv": 43,
+        "new_users": 22,
+        "channels": {
+          "Organic Search": 19,
+          "Direct": 41,
+          "Referral": 0
+        },
+        "organic_engaged": 12
+      },
+      {
+        "date": "2026-10-27",
+        "pv": 192,
+        "uv": 36,
+        "new_users": 26,
+        "channels": {
+          "Organic Search": 17,
+          "Direct": 31,
+          "Referral": 0
+        },
+        "organic_engaged": 10
+      },
+      {
+        "date": "2026-10-28",
+        "pv": 158,
+        "uv": 41,
+        "new_users": 24,
+        "channels": {
+          "Organic Search": 18,
+          "Direct": 42,
+          "Referral": 0
+        },
+        "organic_engaged": 12
+      },
+      {
+        "date": "2026-10-29",
+        "pv": 111,
+        "uv": 45,
+        "new_users": 34,
+        "channels": {
+          "Organic Search": 33,
+          "Direct": 22,
+          "Referral": 0
+        },
+        "organic_engaged": 24
+      },
+      {
+        "date": "2026-10-30",
+        "pv": 114,
+        "uv": 41,
+        "new_users": 32,
+        "channels": {
+          "Organic Search": 24,
+          "Direct": 16,
+          "Referral": 0
+        },
+        "organic_engaged": 16
+      },
+      {
+        "date": "2026-10-31",
+        "pv": 52,
+        "uv": 28,
+        "new_users": 22,
+        "channels": {
+          "Organic Search": 13,
+          "Direct": 13,
+          "Referral": 0
+        },
+        "organic_engaged": 7
+      },
+      {
+        "date": "2026-11-01",
+        "pv": 33,
+        "uv": 15,
+        "new_users": 11,
+        "channels": {
+          "Organic Search": 7,
+          "Direct": 8,
+          "Referral": 1
+        },
+        "organic_engaged": 5
+      },
+      {
+        "date": "2026-11-02",
+        "pv": 129,
+        "uv": 45,
+        "new_users": 36,
+        "channels": {
+          "Organic Search": 18,
+          "Direct": 32,
+          "Referral": 0
+        },
+        "organic_engaged": 13
+      },
+      {
+        "date": "2026-11-03",
+        "pv": 289,
+        "uv": 241,
+        "new_users": 234,
+        "channels": {
+          "Organic Search": 15,
+          "Direct": 109,
+          "Referral": 2
+        },
+        "organic_engaged": 12
+      }
+    ]
+  },
+  "search": {
+    "generated_at": "2026-11-05T11:49:04+08:00",
+    "baidu_status": {
+      "status": "failed",
+      "checked_at": "2026-11-05T10:12:21+08:00",
+      "last_successful_capture_at": "2026-11-04T15:02:23+08:00",
+      "target_date": "2026-11-04",
+      "failure_kind": "source_data_mismatch"
+    },
+    "baidu_daily": [
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "day",
+        "date": "2026-11-03",
+        "clicks": 2,
+        "impressions": 7,
+        "ctr": 0.2857142857142857,
+        "captured_at": "2026-11-04T15:02:23+08:00"
+      }
+    ],
+    "baidu_period_snapshots": [
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "rolling_30_days",
+        "date_start": "2026-10-05",
+        "date_end": "2026-11-03",
+        "as_of_date": "2026-11-04",
+        "clicks": 117,
+        "impressions": 345,
+        "ctr": 0.3391304347826087,
+        "captured_at": "2026-11-04T15:02:23+08:00"
+      }
+    ],
+    "bing_status": {
+      "status": "pending_registration",
+      "checked_at": "2026-11-04T15:02:23+08:00"
+    },
+    "baidu_mobile_status": {
+      "status": "pending_date_verification",
+      "checked_at": "2026-11-04T15:02:23+08:00"
+    }
+  },
+  "annotations": [
+    {
+      "date": "2026-11-03",
+      "label": "直播活动 EDM",
+      "scope": "all_site",
+      "note": "用户确认活动邮件包含官网 UTM 链接。主渠道图隐藏 Email，全站 UV/PV 仍包含活动访问。"
+    }
+  ],
+  "baseline": {
+    "start": "2026-09-15",
+    "end": "2026-09-28"
+  },
+  "operations_start": "2026-08-10",
+  "limitations": [
+    "当前无 8 月 10 日之前的数据，不能计算入职前后增长率。",
+    "GA4 为已核对导出，尚未连接每日 API 同步。",
+    "日均 UV 按每日用户总数求平均，不能替代区间去重 UV。",
+    "自然搜索会话与站长平台点击的统计口径不同。"
+  ]
+}
