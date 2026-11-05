@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T16:00:03+08:00",
+  "generated_at": "2026-11-05T17:25:33+08:00",
   "site_url": "https://www.linkcrux.com/",
   "analysis_review": {
     "reviewed_on": "2026-11-05",
@@ -640,7 +640,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-05T16:00:03+08:00",
+    "generated_at": "2026-11-05T17:25:33+08:00",
     "baidu_status": {
       "status": "failed",
       "checked_at": "2026-11-05T10:12:21+08:00",
@@ -677,6 +677,18 @@
     "bing_status": {
       "status": "pending_registration",
       "checked_at": "2026-11-04T15:02:23+08:00"
+    },
+    "gsc_status": {
+      "status": "verification_failed",
+      "checked_at": "2026-11-05T17:20:15+08:00",
+      "last_successful_capture_at": null,
+      "failure_kind": "verification_server_timeout"
+    },
+    "gsc": {
+      "mode": "official_browser_export",
+      "search_type": "web",
+      "timezone": "America/Los_Angeles",
+      "daily": []
     },
     "baidu_mobile_status": {
       "status": "pending_date_verification",
