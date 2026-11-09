@@ -1,11 +1,25 @@
 {
-  "generated_at": "2026-11-09T10:01:45+08:00",
+  "generated_at": "2026-11-09T10:05:22+08:00",
   "site_url": "https://www.linkcrux.com/",
   "analysis_review": {
-    "reviewed_on": "2026-11-05",
-    "home_period_start": "2026-10-29",
-    "home_period_end": "2026-11-04",
-    "key_events": 0
+    "reviewed_on": "2026-11-09",
+    "home_period_start": "2026-11-02",
+    "home_period_end": "2026-11-08",
+    "key_events": 0,
+    "home_active_users": 479,
+    "home_active_users_change_pct": 134.8,
+    "home_average_engagement_seconds": 28,
+    "home_average_engagement_change_pct": -52.6,
+    "home_new_users": 459,
+    "home_returning_users": 36,
+    "baidu_pc_review": {
+      "date_start": "2026-10-10",
+      "date_end": "2026-11-08",
+      "impressions": 340,
+      "clicks": 116,
+      "keyword_rows": 90,
+      "brand_string_clicks": 116
+    }
   },
   "publication": {
     "visibility": "public",
@@ -17,10 +31,10 @@
     "scheduled_collection": true,
     "sync_status": {
       "status": "failed",
-      "checked_at": "2026-11-05T13:51:48+08:00",
+      "checked_at": "2026-11-09T10:03:55+08:00",
       "last_successful_capture_at": null,
-      "target_date": "2026-11-04",
-      "failure_kind": "source_access_unavailable"
+      "target_date": "2026-11-08",
+      "failure_kind": "browser_control_interrupted"
     },
     "last_successful_capture_at": null,
     "data_start": "2026-09-15",
@@ -640,7 +654,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-09T10:01:45+08:00",
+    "generated_at": "2026-11-09T10:05:22+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-09T10:01:45+08:00",
@@ -699,10 +713,10 @@
       "checked_at": "2026-11-04T15:02:23+08:00"
     },
     "gsc_status": {
-      "status": "verification_failed",
-      "checked_at": "2026-11-05T17:20:15+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-09T10:03:56+08:00",
       "last_successful_capture_at": null,
-      "failure_kind": "verification_server_timeout"
+      "failure_kind": "browser_control_interrupted"
     },
     "gsc": {
       "mode": "official_browser_export",
