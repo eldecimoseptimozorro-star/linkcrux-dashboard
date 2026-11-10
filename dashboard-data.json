@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T10:06:35+08:00",
+  "generated_at": "2026-11-10T17:49:11+08:00",
   "site_url": "https://www.linkcrux.com/",
   "analysis_review": {
-    "reviewed_on": "2026-11-09",
+    "reviewed_on": "2026-11-10",
     "home_period_start": "2026-11-02",
     "home_period_end": "2026-11-08",
     "key_events": 0,
@@ -19,6 +19,44 @@
       "clicks": 116,
       "keyword_rows": 90,
       "brand_string_clicks": 116
+    },
+    "daily_comparison": {
+      "baseline": {
+        "start": "2026-09-15",
+        "end": "2026-09-28",
+        "days": 14,
+        "daily_pv": 75.85714285714286,
+        "daily_uv": 31.571428571428573,
+        "daily_new_users": 27.428571428571427,
+        "organic_sessions": 228,
+        "daily_organic_sessions": 16.285714285714285,
+        "organic_engagement_rate": 0.7543859649122807
+      },
+      "previous": {
+        "start": "2026-10-13",
+        "end": "2026-10-26",
+        "days": 14,
+        "daily_pv": 187.85714285714286,
+        "daily_uv": 31.571428571428573,
+        "daily_new_users": 23.071428571428573,
+        "organic_sessions": 218,
+        "daily_organic_sessions": 15.571428571428571,
+        "organic_engagement_rate": 0.6513761467889908
+      },
+      "current": {
+        "start": "2026-10-27",
+        "end": "2026-11-09",
+        "days": 14,
+        "daily_pv": 134.14285714285714,
+        "daily_uv": 56.142857142857146,
+        "daily_new_users": 47.857142857142854,
+        "organic_sessions": 259,
+        "daily_organic_sessions": 18.5,
+        "organic_engagement_rate": 0.6563706563706564
+      },
+      "includes_known_activity_date": "2026-11-03",
+      "source": "official_browser_export",
+      "captured_at": "2026-11-10T17:42:55+08:00"
     }
   },
   "publication": {
@@ -26,28 +64,28 @@
     "url": "https://eldecimoseptimozorro-star.github.io/linkcrux-dashboard/"
   },
   "ga4": {
-    "mode": "verified_csv_snapshot",
+    "mode": "official_browser_export",
     "automatic_sync": false,
     "scheduled_collection": true,
     "sync_status": {
-      "status": "failed",
-      "checked_at": "2026-11-10T10:06:35+08:00",
-      "last_successful_capture_at": null,
+      "status": "success",
+      "checked_at": "2026-11-10T17:44:49+08:00",
+      "last_successful_capture_at": "2026-11-10T17:42:55+08:00",
       "target_date": "2026-11-09",
-      "failure_kind": "browser_control_unavailable"
+      "data_through": "2026-11-09"
     },
-    "last_successful_capture_at": null,
+    "last_successful_capture_at": "2026-11-10T17:42:55+08:00",
     "data_start": "2026-09-15",
-    "data_end": "2026-11-03",
+    "data_end": "2026-11-09",
     "channel_report_complete": true,
     "sources": [
       {
-        "file": "网页和屏幕_日期_截至20261103.csv",
-        "sha256": "52640b1720e40a6baab0e82e7028932045a8f321ab705b84722fe0579e5e0cfc"
+        "file": "ga4-visits-20260810-20261109-captured-20261110.csv",
+        "sha256": "a0dc4a1b4f58cb44b8ace40287d18a2c67c465ae4821a1e3bf666aec3d40614b"
       },
       {
-        "file": "流量获取情况_渠道与日期_截至20261103.csv",
-        "sha256": "dec8cff12f504e750826957af1e47ab177a90079508bb60cc6c0bd3c1a98ea94"
+        "file": "ga4-channels-20260810-20261109-captured-20261110.csv",
+        "sha256": "00c4e122808ba9b5bb7519d49e85990d8b70f2b0dd7abe2440ea38ed91296160"
       }
     ],
     "daily": [
@@ -650,11 +688,83 @@
           "Referral": 2
         },
         "organic_engaged": 12
+      },
+      {
+        "date": "2026-11-04",
+        "pv": 101,
+        "uv": 32,
+        "new_users": 26,
+        "channels": {
+          "Organic Search": 10,
+          "Direct": 18,
+          "Referral": 0
+        },
+        "organic_engaged": 8
+      },
+      {
+        "date": "2026-11-05",
+        "pv": 187,
+        "uv": 98,
+        "new_users": 90,
+        "channels": {
+          "Organic Search": 28,
+          "Direct": 46,
+          "Referral": 0
+        },
+        "organic_engaged": 18
+      },
+      {
+        "date": "2026-11-06",
+        "pv": 95,
+        "uv": 40,
+        "new_users": 32,
+        "channels": {
+          "Organic Search": 12,
+          "Direct": 27,
+          "Referral": 0
+        },
+        "organic_engaged": 11
+      },
+      {
+        "date": "2026-11-07",
+        "pv": 45,
+        "uv": 29,
+        "new_users": 24,
+        "channels": {
+          "Organic Search": 15,
+          "Direct": 14,
+          "Referral": 0
+        },
+        "organic_engaged": 10
+      },
+      {
+        "date": "2026-11-08",
+        "pv": 59,
+        "uv": 20,
+        "new_users": 17,
+        "channels": {
+          "Organic Search": 15,
+          "Direct": 9,
+          "Referral": 0
+        },
+        "organic_engaged": 7
+      },
+      {
+        "date": "2026-11-09",
+        "pv": 313,
+        "uv": 75,
+        "new_users": 62,
+        "channels": {
+          "Organic Search": 34,
+          "Direct": 41,
+          "Referral": 0
+        },
+        "organic_engaged": 17
       }
     ]
   },
   "search": {
-    "generated_at": "2026-11-10T10:06:35+08:00",
+    "generated_at": "2026-11-10T17:49:11+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-10T10:04:07+08:00",
@@ -756,6 +866,8 @@
     "当前无 8 月 10 日之前的数据，不能计算入职前后增长率。",
     "GA4 按官方导出更新，当前同步状态以来源状态为准。",
     "日均 UV 按每日用户总数求平均，不能替代区间去重 UV。",
-    "自然搜索会话与站长平台点击的统计口径不同。"
+    "自然搜索会话与站长平台点击的统计口径不同。",
+    "渠道会话按官方日期明细汇总，逐日合计可能与 GA4 区间总计不同；两者独立归档。",
+    "关闭活动日时，两段完整周期同步剔除相同位置的日期；活动后续访问仍可能保留。"
   ]
 }

@@ -62,17 +62,25 @@
     const growth=(current,base)=>current==null||base==null||base===0?null:(current/base-1);
     const delta=value=>value==null?'—':(value>0?'+':'')+fmt(value*100,1)+'%';
     function complete(rows,start,end){return rows.length===Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;}
-    function selection(){
-      const all=data.ga4.daily, events=new Set(data.annotations.map(a=>a.date));
+    function selectPeriods(all,annotations,range,includeActivity,comparison){
+      const events=new Set(annotations.map(a=>a.date));
       let end=all.at(-1).date;
       while(!includeActivity&&events.has(end))end=shift(end,-1);
       const start=range==='all'?all[0].date:shift(end,-range+1);
-      const rows=all.filter(r=>r.date>=start&&r.date<=end&& (includeActivity||!events.has(r.date))), count=rows.length;
+      const current=all.filter(r=>r.date>=start&&r.date<=end), count=Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;
       let baseStart=comparison==='early'?all[0].date:shift(start,-count),baseEnd=shift(baseStart,count-1);
-      let base=all.filter(r=>r.date>=baseStart&&r.date<=baseEnd&& (includeActivity||!events.has(r.date)));
-      if(!complete(base,baseStart,baseEnd)||!complete(rows,start,end)||baseEnd>=start)base=[];
-      return {all,rows,base,start,end,baseStart,baseEnd};
+      let base=all.filter(r=>r.date>=baseStart&&r.date<=baseEnd), rows=current;
+      if(!complete(base,baseStart,baseEnd)||!complete(current,start,end)||baseEnd>=start)base=[];
+      if(!includeActivity){
+        if(base.length){
+          // Exclude the same relative days from both complete periods.
+          const keep=current.map((r,i)=>!events.has(r.date)&&!events.has(base[i].date));
+          rows=current.filter((r,i)=>keep[i]);base=base.filter((r,i)=>keep[i]);
+        }else rows=current.filter(r=>!events.has(r.date));
+      }
+      return {all,rows,base,start,end,baseStart,baseEnd,excluded:current.length-rows.length};
     }
+    function selection(){return selectPeriods(data.ga4.daily,data.annotations,range,includeActivity,comparison);}
     function moving(rows,get,n=7){return rows.map((r,i)=>i<n-1?null:average(rows.slice(i-n+1,i+1),get));}
     function chart(id,rows,series,opts={}){
       const el=$(id);el.replaceChildren();
@@ -94,7 +102,7 @@
     function render(){
       renderGsc();
       const s=selection(),{rows,base,start,end}=s;
-      $('period-label').textContent=`当前周期 ${start} — ${end}（${rows.length} 天）`+(base.length?` · 对比 ${s.baseStart} — ${s.baseEnd}`:' · 暂无可用的独立同长对比周期');
+      $('period-label').textContent=`当前周期 ${start} — ${end}（${rows.length} 天）`+(base.length?` · 对比 ${s.baseStart} — ${s.baseEnd}（${base.length} 天）`:' · 暂无可用的独立同长对比周期')+(s.excluded?` · 活动日已剔除${base.length?'，对比期同步剔除对应位置日':''}`:'');
       const organic=average(rows,r=>r.channels['Organic Search']),organicBase=average(base,r=>r.channels['Organic Search']);
       const metrics=[['自然搜索日均会话',organic,organicBase,'次 / 天'],['日均用户 UV',average(rows,r=>r.uv),average(base,r=>r.uv),'人 / 天'],['日均浏览 PV',average(rows,r=>r.pv),average(base,r=>r.pv),'次 / 天'],['Direct 日均会话',average(rows,r=>r.channels.Direct),average(base,r=>r.channels.Direct),'次 / 天']];
       $('metrics').replaceChildren();metrics.forEach(([label,value,prior,unit],i)=>{const change=growth(value,prior),card=document.createElement('article');card.className='metric'+(i===0?' featured':'');card.innerHTML=`<div class="metric-label">${label}</div><div class="metric-value">${fmt(value,1)}<small>${unit}</small></div><div class="metric-foot"><span class="delta ${change<0?'down':''}">${delta(change)}</span><span>${prior==null?'暂无完整对比':'对比 '+fmt(prior,1)}</span></div>`;$('metrics').append(card);});
@@ -122,7 +130,7 @@
         {priority:'P1',title:'分开观察拉新、招聘与业务访问',evidence:s.base.length?`所选周期日均新用户 ${fmt(newBefore,1)} → ${fmt(newNow,1)}（${delta(growth(newNow,newBefore))}）。总 UV 改善不能直接当成拉新改善。`:'新用户与全站用户需要分开评价；页面用户存在重叠，不相加计算全站 UV。',action:'将产品、应用场景与案例归为业务内容，招聘流量单列；进一步查看哪些来源进入联系与提交环节。',validation:'验收：业务内容访问占比、联系意向率与有效线索率，不以全站流量代替客户需求。'},
         {priority:'P1',title:'复核集中浏览与活动带来的波动',evidence:'10/20 — 11/2 的 2,989 PV 中，10/21 与 10/22 合计 1,363，占 45.6%。11/3 另有已确认的直播 EDM。',action:'核查日期×页面、来源、设备与重复触发；确认内部浏览或埋点原因后再处理，保留原始数据与活动标注。',validation:'验收：形成明确原因证据，并观察下一完整周期的用户与线索变化，不用单日峰值判成败。'}
       ];
-      if(review?.home_active_users!=null)actions.push({priority:'P1',title:'活动后复核日常流量与互动',evidence:`${review.home_period_start} — ${review.home_period_end}，首页活跃用户 ${fmt(review.home_active_users)}（较上一周期 ${delta(review.home_active_users_change_pct/100)}），平均互动 ${fmt(review.home_average_engagement_seconds)} 秒（${delta(review.home_average_engagement_change_pct/100)}）。活跃用户不是用户总数 UV。`,action:'该周期包含 11/3 已知直播活动。下一步用完整日明细拆活动与日常来源、落地页和设备，核查新增访问是否进入业务页。',validation:'验收：活动前后完整同长周期的自然会话、互动率及真实提交；首页卡片不写入每日趋势。'});
+      if(review?.daily_comparison){const c=review.daily_comparison;actions.push({priority:'P1',title:'区分活动增量与日常增长',evidence:`${c.current.start} — ${c.current.end} 对比 ${c.baseline.start} — ${c.baseline.end}，均为完整 ${c.current.days} 天：日均 UV ${fmt(c.baseline.daily_uv,1)} → ${fmt(c.current.daily_uv,1)}，日均新用户 ${fmt(c.baseline.daily_new_users,1)} → ${fmt(c.current.daily_new_users,1)}。包含 11/3 直播活动。`,action:'用上方活动日开关区分单日峰值，并继续拆活动 UTM、业务与招聘落地页；剔除活动日后仍可能有活动后续访问，不直接视为纯自然增长。',validation:'验收：自然会话、互动率、业务页进入及真实提交；活动峰值与日常增长分别汇报。'});}else if(review?.home_active_users!=null)actions.push({priority:'P1',title:'活动后复核日常流量与互动',evidence:`${review.home_period_start} — ${review.home_period_end}，首页活跃用户 ${fmt(review.home_active_users)}（较上一周期 ${delta(review.home_active_users_change_pct/100)}），平均互动 ${fmt(review.home_average_engagement_seconds)} 秒（${delta(review.home_average_engagement_change_pct/100)}）。活跃用户不是用户总数 UV。`,action:'该周期包含 11/3 已知直播活动。下一步用完整日明细拆活动与日常来源、落地页和设备，核查新增访问是否进入业务页。',validation:'验收：活动前后完整同长周期的自然会话、互动率及真实提交；首页卡片不写入每日趋势。'});
       const baiduReview=review?.baidu_pc_review;
       if(baiduReview)actions.push({priority:'P1',title:'验证非品牌业务词的获客空间',evidence:`百度 PC ${baiduReview.date_start} — ${baiduReview.date_end}：${fmt(baiduReview.impressions)} 次展现、${fmt(baiduReview.clicks)} 次点击，${fmt(baiduReview.keyword_rows)} 个词。含品牌字样的词贡献 ${fmt(baiduReview.brand_string_clicks)} 次点击。`,action:'逐词核对采购与制造业业务意图，区分品牌、招聘和无关搜索；据实际业务词和落地页证据安排案例与产品内容。',validation:'验收：非品牌业务词的展现、点击、业务页互动与提交。字符串匹配不等于已确认意图；滚动窗口不当作独立环比。'});
       $('action-grid').replaceChildren();actions.forEach(item=>{const card=document.createElement('article');card.className='action-card';const h=document.createElement('h3'),badge=document.createElement('span'),title=document.createElement('span');badge.className='priority'+(item.priority==='P0'?' high':'');badge.textContent=item.priority;title.textContent=item.title;h.append(badge,title);card.append(h);for(const [key,cls]of [['evidence','evidence'],['action',''],['validation','validation']]){const p=document.createElement('p');p.className=cls;p.textContent=item[key];card.append(p);}$('action-grid').append(card);});
