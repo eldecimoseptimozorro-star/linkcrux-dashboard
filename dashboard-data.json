@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:06:27+08:00",
+  "generated_at": "2026-11-10T10:04:07+08:00",
   "site_url": "https://www.linkcrux.com/",
   "analysis_review": {
     "reviewed_on": "2026-11-09",
@@ -654,11 +654,11 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-09T10:06:27+08:00",
+    "generated_at": "2026-11-10T10:04:07+08:00",
     "baidu_status": {
       "status": "success",
-      "checked_at": "2026-11-09T10:01:45+08:00",
-      "last_successful_capture_at": "2026-11-09T10:01:25.751+08:00"
+      "checked_at": "2026-11-10T10:04:07+08:00",
+      "last_successful_capture_at": "2026-11-10T10:03:53.475+08:00"
     },
     "baidu_daily": [
       {
@@ -680,6 +680,16 @@
         "impressions": 7,
         "ctr": 0.42857142857142855,
         "captured_at": "2026-11-09T10:01:25.751+08:00"
+      },
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "day",
+        "date": "2026-11-09",
+        "clicks": 2,
+        "impressions": 6,
+        "ctr": 0.3333333333333333,
+        "captured_at": "2026-11-10T10:03:53.475+08:00"
       }
     ],
     "baidu_period_snapshots": [
