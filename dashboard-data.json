@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:30:05+08:00",
+  "generated_at": "2026-11-13T09:54:21+08:00",
   "site_url": "https://www.linkcrux.com/",
   "analysis_review": {
     "reviewed_on": "2026-11-11",
@@ -86,24 +86,24 @@
     "automatic_sync": false,
     "scheduled_collection": true,
     "sync_status": {
-      "status": "failed",
-      "checked_at": "2026-11-12T07:29:57+08:00",
-      "last_successful_capture_at": "2026-11-11T10:07:11+08:00",
-      "target_date": "2026-11-11",
-      "failure_kind": "mac_locked"
+      "status": "success",
+      "checked_at": "2026-11-13T09:54:12+08:00",
+      "last_successful_capture_at": "2026-11-13T09:53:27.342+08:00",
+      "target_date": "2026-11-12",
+      "data_through": "2026-11-12"
     },
-    "last_successful_capture_at": "2026-11-11T10:07:11+08:00",
+    "last_successful_capture_at": "2026-11-13T09:53:27.342+08:00",
     "data_start": "2026-09-15",
-    "data_end": "2026-11-10",
+    "data_end": "2026-11-12",
     "channel_report_complete": true,
     "sources": [
       {
-        "file": "ga4-visits-20260810-20261110-captured-20261111.csv",
-        "sha256": "079951900073d7ac82357e830e8f901eac03fa18079f4de96938cb975ed76c26"
+        "file": "ga4-visits-20260810-20261112-captured-20261113.csv",
+        "sha256": "988af23da43f3f3dfde46b74e5e2cc39c75d18b928469ff7b5be22cb63c185d4"
       },
       {
-        "file": "ga4-channels-20260810-20261110-captured-20261111.csv",
-        "sha256": "b4d951d598578eb3369f9f1a6ea75e9b884fb5391782e342dabb8a3e322a74ac"
+        "file": "ga4-channels-20260810-20261112-captured-20261113.csv",
+        "sha256": "f06713d0e87db9308ea2e2cde86ef247cb0e407bab714a90d515e6d8c4bdf617"
       }
     ],
     "daily": [
@@ -789,18 +789,40 @@
           "Direct": 43,
           "Referral": 3
         },
+        "organic_engaged": 18
+      },
+      {
+        "date": "2026-11-11",
+        "pv": 366,
+        "uv": 70,
+        "new_users": 51,
+        "channels": {
+          "Organic Search": 26,
+          "Direct": 54,
+          "Referral": 1
+        },
+        "organic_engaged": 17
+      },
+      {
+        "date": "2026-11-12",
+        "pv": 406,
+        "uv": 60,
+        "new_users": 42,
+        "channels": {
+          "Organic Search": 26,
+          "Direct": 41,
+          "Referral": 1
+        },
         "organic_engaged": 16
       }
     ]
   },
   "search": {
-    "generated_at": "2026-11-12T07:30:05+08:00",
+    "generated_at": "2026-11-13T09:54:21+08:00",
     "baidu_status": {
-      "status": "failed",
-      "checked_at": "2026-11-12T07:29:57+08:00",
-      "last_successful_capture_at": "2026-11-11T10:12:29+08:00",
-      "target_date": "2026-11-11",
-      "failure_kind": "mac_locked"
+      "status": "success",
+      "checked_at": "2026-11-13T09:54:21+08:00",
+      "last_successful_capture_at": "2026-11-13T09:50:20.171+08:00"
     },
     "baidu_daily": [
       {
@@ -842,6 +864,16 @@
         "impressions": 11,
         "ctr": 0.6363636363636364,
         "captured_at": "2026-11-11T10:12:29+08:00"
+      },
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "day",
+        "date": "2026-11-12",
+        "clicks": 4,
+        "impressions": 12,
+        "ctr": 0.3333333333333333,
+        "captured_at": "2026-11-13T09:50:20.171+08:00"
       }
     ],
     "baidu_period_snapshots": [
