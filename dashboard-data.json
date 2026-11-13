@@ -1,6 +1,82 @@
 {
-  "generated_at": "2026-11-13T10:55:12+08:00",
+  "generated_at": "2026-11-13T15:49:39+08:00",
   "site_url": "https://www.linkcrux.com/",
+  "marketing_review": {
+    "id": "blog_launch_20261028",
+    "title": "博客上线阶段复盘",
+    "milestone_date": "2026-10-28",
+    "milestone_source": "user_reported",
+    "reported_on": "2026-11-13",
+    "limitations": [
+      "这是博客上线前后的全站阶段变化，尚未排除同期其他营销动作，不能据此声称博客独立贡献。",
+      "线索目前仅有固定阶段手工汇总，没有可用逐日分布，不绘制伪逐日曲线、不扩展为其他选择周期。",
+      "小基数下优先展示前后绝对值、净增和统计天数，百分比作为补充。",
+      "没有2025年同期数据，不计算同比；当前是前后同长阶段环比。"
+    ],
+    "periods": {
+      "before": {
+        "start": "2026-10-14",
+        "end": "2026-10-27"
+      },
+      "after": {
+        "start": "2026-10-28",
+        "end": "2026-11-10"
+      }
+    },
+    "traffic_exclusion_options": [
+      {
+        "id": "verified_activity",
+        "label": "原流量复核口径 · 10/20、11/03",
+        "before": [
+          "2026-10-20"
+        ],
+        "after": [
+          "2026-11-03"
+        ],
+        "note": "11/03为此前已确认的直播EDM活动日；10/20是对比期对称剔除日，不表示该日也发生直播。原38.3%、52.5%、30.1%来自此口径。"
+      },
+      {
+        "id": "user_reported_dates",
+        "label": "本次文字日期 · 10/21、11/04",
+        "before": [
+          "2026-10-21"
+        ],
+        "after": [
+          "2026-11-04"
+        ],
+        "note": "按用户本次文字所列日期重算，用于展示日期差异对结果的影响；尚未将原11/03活动记录改为11/04。"
+      }
+    ],
+    "leads": {
+      "source": "user_reported_business_summary",
+      "reported_on": "2026-11-13",
+      "verification": "not_reconciled_to_daily_records",
+      "reported_exclusions": {
+        "before": [
+          "2026-10-21"
+        ],
+        "after": [
+          "2026-11-04"
+        ]
+      },
+      "days_per_period": 13,
+      "note": "线索数和日均由用户提供，尚未与逐日业务记录或销售有效性对账。前期官网约1条、全来源约95→140条仅由日均和13天反算，不视为独立核实计数。+400%保留用户按未四舍五入计数给出的口径，不能用已四舍五入0.08、0.38重新计算为375%。官网线索未归因到具体博客。",
+      "website": {
+        "before_total": null,
+        "after_total": 5,
+        "before_daily": 0.08,
+        "after_daily": 0.38,
+        "reported_change_pct": 400
+      },
+      "all_sources": {
+        "before_total": null,
+        "after_total": null,
+        "before_daily": 7.31,
+        "after_daily": 10.77,
+        "reported_change_pct": 47.4
+      }
+    }
+  },
   "analysis_review": {
     "reviewed_on": "2026-11-13",
     "home_period_start": "2026-11-02",
@@ -818,7 +894,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-13T10:55:12+08:00",
+    "generated_at": "2026-11-13T15:49:39+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-13T09:54:21+08:00",
@@ -925,9 +1001,17 @@
   },
   "annotations": [
     {
+      "date": "2026-10-28",
+      "label": "博客上线",
+      "scope": "milestone",
+      "exclude_from_comparison": false,
+      "note": "用户确认博客于10月28日上线；此为营销节点，不因关闭活动日而剔除。"
+    },
+    {
       "date": "2026-11-03",
       "label": "直播活动 EDM",
       "scope": "all_site",
+      "exclude_from_comparison": true,
       "note": "用户确认活动邮件包含官网 UTM 链接。主渠道图隐藏 Email，全站 UV/PV 仍包含活动访问。"
     }
   ],
