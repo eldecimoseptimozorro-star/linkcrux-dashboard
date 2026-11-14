@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:13:53+08:00",
+  "generated_at": "2026-11-14T17:30:14+08:00",
   "site_url": "https://www.linkcrux.com/",
   "marketing_review": {
     "id": "blog_launch_20261028",
@@ -78,7 +78,7 @@
     }
   },
   "analysis_review": {
-    "reviewed_on": "2026-11-13",
+    "reviewed_on": "2026-11-14",
     "home_period_start": "2026-11-02",
     "home_period_end": "2026-11-08",
     "key_events": 0,
@@ -109,48 +109,61 @@
         "organic_engagement_rate": 0.7543859649122807
       },
       "previous": {
-        "start": "2026-10-16",
-        "end": "2026-10-29",
+        "start": "2026-10-17",
+        "end": "2026-10-30",
         "days": 14,
-        "daily_pv": 208.07142857142858,
-        "daily_uv": 34.357142857142854,
-        "daily_new_users": 24.642857142857142,
-        "organic_sessions": 245,
-        "daily_organic_sessions": 17.5,
-        "organic_engagement_rate": 0.673469387755102
+        "daily_pv": 210.42857142857142,
+        "daily_uv": 34.42857142857143,
+        "daily_new_users": 24.785714285714285,
+        "organic_sessions": 253,
+        "daily_organic_sessions": 18.071428571428573,
+        "organic_engagement_rate": 0.6798418972332015
       },
       "current": {
-        "start": "2026-10-30",
-        "end": "2026-11-12",
+        "start": "2026-10-31",
+        "end": "2026-11-13",
         "days": 14,
-        "daily_pv": 226.35714285714286,
-        "daily_uv": 60.57142857142857,
-        "daily_new_users": 51.357142857142854,
-        "organic_sessions": 271,
-        "daily_organic_sessions": 19.357142857142858,
-        "organic_engagement_rate": 0.6457564575645757
+        "daily_pv": 227.5,
+        "daily_uv": 60.5,
+        "daily_new_users": 51.285714285714285,
+        "organic_sessions": 264,
+        "daily_organic_sessions": 18.857142857142858,
+        "organic_engagement_rate": 0.6477272727272727
       },
       "includes_known_activity_date": "2026-11-03",
       "source": "official_browser_export",
-      "captured_at": "2026-11-13T09:53:27.342+08:00"
+      "captured_at": "2026-11-14T17:00:51.396290+08:00"
     },
     "latest_day_review": {
-      "date": "2026-11-10",
-      "pv": 980,
-      "uv": 54,
-      "new_users": 40,
-      "concentrated_business_page_count": 3,
-      "concentrated_business_pv": 389,
-      "concentrated_business_pv_share": 0.39693877551020407,
-      "concentrated_page_active_user_min": 3,
-      "concentrated_page_active_user_max": 5,
-      "recruitment_pv": 24,
-      "contact_page_pv": 6,
-      "contact_page_active_users": 6,
-      "period_pv_share": 0.3675918979744936,
-      "source": "GA4 official page-path report and daily export",
-      "captured_at": "2026-11-11T10:17:49.000+08:00",
-      "timestamp_basis": "AX文本读取后同一工具调用立即保存的真实文件时间"
+      "date": "2026-11-13",
+      "pv": 130,
+      "uv": 40,
+      "new_users": 31,
+      "recruitment_pv": 18,
+      "recruitment_active_users": 13,
+      "contact_page_pv": 2,
+      "contact_page_active_users": 1,
+      "blog_pv": 27,
+      "blog_article_pv": 26,
+      "blog_article_count": 7,
+      "page_rows": 15,
+      "source": "GA4 official page-path report and verified daily export",
+      "captured_at": "2026-11-14T17:21:17.178+08:00",
+      "note": "页面活跃用户不能相加作全站UV。联系页浏览不等同提交；博客文章每页0—1活跃用户，样本小且重复浏览，不能将27PV称为27位潜客。",
+      "landing_sessions_total_ui": 49,
+      "blog_landing_sessions": 3,
+      "blog_landing_pages": 3,
+      "recruitment_landing_sessions": 4,
+      "source_medium_rows": 9,
+      "event_names_observed": [
+        "page_view",
+        "session_start",
+        "scroll",
+        "user_engagement",
+        "first_visit",
+        "click"
+      ],
+      "submit_success_event_observed": false
     }
   },
   "publication": {
@@ -906,7 +919,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-14T17:13:53+08:00",
+    "generated_at": "2026-11-14T17:30:14+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-14T17:13:53+08:00",
@@ -1005,16 +1018,73 @@
       "checked_at": "2026-11-04T15:02:23+08:00"
     },
     "gsc_status": {
-      "status": "failed",
-      "checked_at": "2026-11-13T09:56:39+08:00",
-      "last_successful_capture_at": null,
-      "failure_kind": "server_connection_timeout"
+      "status": "success",
+      "checked_at": "2026-11-14T17:18:30+08:00",
+      "last_successful_capture_at": "2026-11-14T17:18:30.280361+08:00",
+      "data_through": "2026-11-10"
     },
     "gsc": {
       "mode": "official_browser_export",
       "search_type": "web",
       "timezone": "America/Los_Angeles",
-      "daily": []
+      "daily": [
+        {
+          "date": "2026-11-04",
+          "clicks": 5,
+          "impressions": 26,
+          "ctr": 0.19230769230769232,
+          "position": 5.3,
+          "captured_at": "2026-11-14T17:18:30.280361+08:00"
+        },
+        {
+          "date": "2026-11-05",
+          "clicks": 3,
+          "impressions": 21,
+          "ctr": 0.14285714285714285,
+          "position": 4.9,
+          "captured_at": "2026-11-14T17:18:30.280361+08:00"
+        },
+        {
+          "date": "2026-11-06",
+          "clicks": 1,
+          "impressions": 53,
+          "ctr": 0.018867924528301886,
+          "position": 7.4,
+          "captured_at": "2026-11-14T17:18:30.280361+08:00"
+        },
+        {
+          "date": "2026-11-07",
+          "clicks": 6,
+          "impressions": 14,
+          "ctr": 0.42857142857142855,
+          "position": 7.8,
+          "captured_at": "2026-11-14T17:18:30.280361+08:00"
+        },
+        {
+          "date": "2026-11-08",
+          "clicks": 8,
+          "impressions": 26,
+          "ctr": 0.3076923076923077,
+          "position": 2.8,
+          "captured_at": "2026-11-14T17:18:30.280361+08:00"
+        },
+        {
+          "date": "2026-11-09",
+          "clicks": 5,
+          "impressions": 23,
+          "ctr": 0.21739130434782608,
+          "position": 14.6,
+          "captured_at": "2026-11-14T17:18:30.280361+08:00"
+        },
+        {
+          "date": "2026-11-10",
+          "clicks": 4,
+          "impressions": 32,
+          "ctr": 0.125,
+          "position": 7.1,
+          "captured_at": "2026-11-14T17:18:30.280361+08:00"
+        }
+      ]
     },
     "baidu_mobile_status": {
       "status": "pending_date_verification",
