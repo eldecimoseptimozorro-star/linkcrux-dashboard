@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:30:14+08:00",
+  "generated_at": "2026-11-15T17:45:06+08:00",
   "site_url": "https://www.linkcrux.com/",
   "marketing_review": {
     "id": "blog_launch_20261028",
@@ -175,11 +175,11 @@
     "automatic_sync": false,
     "scheduled_collection": true,
     "sync_status": {
-      "status": "success",
-      "checked_at": "2026-11-14T17:01:12+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-15T16:20:59+08:00",
       "last_successful_capture_at": "2026-11-14T17:00:51.396290+08:00",
-      "target_date": "2026-11-13",
-      "data_through": "2026-11-13"
+      "target_date": "2026-11-14",
+      "failure_kind": "browser_locked"
     },
     "last_successful_capture_at": "2026-11-14T17:00:51.396290+08:00",
     "data_start": "2026-09-15",
@@ -919,11 +919,13 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-14T17:30:14+08:00",
+    "generated_at": "2026-11-15T17:45:06+08:00",
     "baidu_status": {
-      "status": "success",
-      "checked_at": "2026-11-14T17:13:53+08:00",
-      "last_successful_capture_at": "2026-11-14T17:12:47.531+08:00"
+      "status": "failed",
+      "checked_at": "2026-11-15T16:20:59+08:00",
+      "last_successful_capture_at": "2026-11-14T17:12:47.531+08:00",
+      "target_date": "2026-11-14",
+      "failure_kind": "browser_locked"
     },
     "baidu_daily": [
       {
@@ -1018,10 +1020,10 @@
       "checked_at": "2026-11-04T15:02:23+08:00"
     },
     "gsc_status": {
-      "status": "success",
-      "checked_at": "2026-11-14T17:18:30+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-15T16:20:59+08:00",
       "last_successful_capture_at": "2026-11-14T17:18:30.280361+08:00",
-      "data_through": "2026-11-10"
+      "failure_kind": "browser_locked"
     },
     "gsc": {
       "mode": "official_browser_export",
