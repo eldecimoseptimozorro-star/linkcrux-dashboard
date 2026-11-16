@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:03:24+08:00",
+  "generated_at": "2026-11-16T10:26:26+08:00",
   "site_url": "https://www.linkcrux.com/",
   "marketing_review": {
     "id": "blog_launch_20261028",
@@ -172,6 +172,3341 @@
   "ga4": {
     "mode": "official_browser_export",
     "automatic_sync": false,
+    "source_platforms": {
+      "mode": "official_browser_export",
+      "unit": "sessions",
+      "sync_status": {
+        "status": "success",
+        "checked_at": "2026-11-16T10:18:33+08:00",
+        "last_successful_capture_at": "2026-11-16T10:18:15.461+08:00",
+        "target_date": "2026-11-15",
+        "data_through": "2026-11-15"
+      },
+      "data_start": "2026-09-15",
+      "data_end": "2026-11-15",
+      "platforms": [
+        {
+          "id": "baidu",
+          "label": "百度"
+        },
+        {
+          "id": "google",
+          "label": "谷歌"
+        },
+        {
+          "id": "bing",
+          "label": "必应"
+        },
+        {
+          "id": "other_search",
+          "label": "其他搜索"
+        },
+        {
+          "id": "ai",
+          "label": "AI 助手"
+        },
+        {
+          "id": "direct",
+          "label": "直接访问"
+        },
+        {
+          "id": "other_referral",
+          "label": "其他引荐"
+        },
+        {
+          "id": "other",
+          "label": "其他来源"
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-09-15",
+          "platforms": {
+            "baidu": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 1,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 4,
+              "engaged": 4,
+              "organic_sessions": 1,
+              "referral_sessions": 3
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 26,
+              "engaged": 17,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "platforms": {
+            "baidu": {
+              "sessions": 10,
+              "engaged": 6,
+              "organic_sessions": 9,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 15,
+              "engaged": 11,
+              "organic_sessions": 1,
+              "referral_sessions": 14
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 23,
+              "engaged": 10,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 4,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-17",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 4,
+              "organic_sessions": 6,
+              "referral_sessions": 2
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 17,
+              "engaged": 17,
+              "organic_sessions": 3,
+              "referral_sessions": 14
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 29,
+              "engaged": 14,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 5,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "platforms": {
+            "baidu": {
+              "sessions": 3,
+              "engaged": 2,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 7
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 24,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other": {
+              "sessions": 4,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 1,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 9,
+              "engaged": 7,
+              "organic_sessions": 1,
+              "referral_sessions": 8
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 8,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 6,
+              "organic_sessions": 8,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 20,
+              "engaged": 16,
+              "organic_sessions": 3,
+              "referral_sessions": 17
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 23,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "platforms": {
+            "baidu": {
+              "sessions": 18,
+              "engaged": 15,
+              "organic_sessions": 17,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 13,
+              "engaged": 10,
+              "organic_sessions": 3,
+              "referral_sessions": 10
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 13,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-22",
+          "platforms": {
+            "baidu": {
+              "sessions": 18,
+              "engaged": 14,
+              "organic_sessions": 16,
+              "referral_sessions": 2
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 1,
+              "referral_sessions": 4
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 33,
+              "engaged": 14,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-23",
+          "platforms": {
+            "baidu": {
+              "sessions": 10,
+              "engaged": 8,
+              "organic_sessions": 9,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "direct": {
+              "sessions": 16,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-24",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 3,
+              "organic_sessions": 7,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 5,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 5
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 20,
+              "engaged": 10,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 11,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-26",
+          "platforms": {
+            "baidu": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-27",
+          "platforms": {
+            "baidu": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 4,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-28",
+          "platforms": {
+            "baidu": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 9,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-29",
+          "platforms": {
+            "baidu": {
+              "sessions": 9,
+              "engaged": 6,
+              "organic_sessions": 9,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 3,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 1,
+              "referral_sessions": 4
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "direct": {
+              "sessions": 13,
+              "engaged": 4,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-09-30",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 6,
+              "organic_sessions": 8,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 7,
+              "engaged": 3,
+              "organic_sessions": 7,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 4,
+              "engaged": 4,
+              "organic_sessions": 2,
+              "referral_sessions": 2
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 11,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-02",
+          "platforms": {
+            "baidu": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-03",
+          "platforms": {
+            "baidu": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 6,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-04",
+          "platforms": {
+            "baidu": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-05",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 5,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "platforms": {
+            "baidu": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-07",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 12,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "platforms": {
+            "baidu": {
+              "sessions": 10,
+              "engaged": 7,
+              "organic_sessions": 10,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 6,
+              "engaged": 4,
+              "organic_sessions": 6,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 7
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 6,
+              "engaged": 4,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "platforms": {
+            "baidu": {
+              "sessions": 4,
+              "engaged": 4,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 2,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 7
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 15,
+              "engaged": 4,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-10",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 5,
+              "organic_sessions": 8,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 17,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-11",
+          "platforms": {
+            "baidu": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 4,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 6,
+              "organic_sessions": 7,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 4,
+              "organic_sessions": 2,
+              "referral_sessions": 5
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 17,
+              "engaged": 7,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-13",
+          "platforms": {
+            "baidu": {
+              "sessions": 3,
+              "engaged": 1,
+              "organic_sessions": 2,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 2,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 4,
+              "organic_sessions": 1,
+              "referral_sessions": 6
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 14,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "platforms": {
+            "baidu": {
+              "sessions": 6,
+              "engaged": 4,
+              "organic_sessions": 6,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 5,
+              "organic_sessions": 1,
+              "referral_sessions": 6
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 17,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 6,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "platforms": {
+            "baidu": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 1,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "other_search": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 13,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 4,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-16",
+          "platforms": {
+            "baidu": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 9,
+              "engaged": 4,
+              "organic_sessions": 9,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 31,
+              "engaged": 13,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "platforms": {
+            "baidu": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 12,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-18",
+          "platforms": {
+            "baidu": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 2,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 4,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 4
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 4,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-19",
+          "platforms": {
+            "baidu": {
+              "sessions": 5,
+              "engaged": 5,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 11,
+              "engaged": 6,
+              "organic_sessions": 11,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 6,
+              "engaged": 5,
+              "organic_sessions": 3,
+              "referral_sessions": 3
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "direct": {
+              "sessions": 21,
+              "engaged": 11,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "platforms": {
+            "baidu": {
+              "sessions": 13,
+              "engaged": 9,
+              "organic_sessions": 13,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 6,
+              "engaged": 5,
+              "organic_sessions": 6,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 3,
+              "referral_sessions": 2
+            },
+            "other_search": {
+              "sessions": 3,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 32,
+              "engaged": 16,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "platforms": {
+            "baidu": {
+              "sessions": 4,
+              "engaged": 3,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 13,
+              "engaged": 6,
+              "organic_sessions": 13,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 7
+            },
+            "other_search": {
+              "sessions": 6,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 6
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 29,
+              "engaged": 17,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-22",
+          "platforms": {
+            "baidu": {
+              "sessions": 9,
+              "engaged": 9,
+              "organic_sessions": 9,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 1,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 11,
+              "engaged": 10,
+              "organic_sessions": 1,
+              "referral_sessions": 10
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 31,
+              "engaged": 18,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "platforms": {
+            "baidu": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 9,
+              "engaged": 6,
+              "organic_sessions": 9,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 9,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 9
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "direct": {
+              "sessions": 32,
+              "engaged": 16,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 4,
+              "engaged": 4,
+              "organic_sessions": 0,
+              "referral_sessions": 4
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 16,
+              "engaged": 9,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-25",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 5
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 7,
+              "engaged": 4,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "platforms": {
+            "baidu": {
+              "sessions": 9,
+              "engaged": 7,
+              "organic_sessions": 8,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 1,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 0,
+              "referral_sessions": 5
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 41,
+              "engaged": 24,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-27",
+          "platforms": {
+            "baidu": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 2,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 11,
+              "engaged": 7,
+              "organic_sessions": 0,
+              "referral_sessions": 11
+            },
+            "other_search": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 31,
+              "engaged": 20,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-28",
+          "platforms": {
+            "baidu": {
+              "sessions": 7,
+              "engaged": 4,
+              "organic_sessions": 4,
+              "referral_sessions": 3
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 6,
+              "engaged": 4,
+              "organic_sessions": 1,
+              "referral_sessions": 5
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 42,
+              "engaged": 20,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 4,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "platforms": {
+            "baidu": {
+              "sessions": 7,
+              "engaged": 6,
+              "organic_sessions": 6,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 6,
+              "engaged": 2,
+              "organic_sessions": 6,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 20,
+              "engaged": 16,
+              "organic_sessions": 3,
+              "referral_sessions": 17
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 22,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-30",
+          "platforms": {
+            "baidu": {
+              "sessions": 6,
+              "engaged": 4,
+              "organic_sessions": 5,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 9,
+              "engaged": 3,
+              "organic_sessions": 9,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 8,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 8
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 16,
+              "engaged": 4,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 3,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-10-31",
+          "platforms": {
+            "baidu": {
+              "sessions": 6,
+              "engaged": 3,
+              "organic_sessions": 5,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 2,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 5
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 13,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-01",
+          "platforms": {
+            "baidu": {
+              "sessions": 4,
+              "engaged": 3,
+              "organic_sessions": 3,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 3,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 8,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "platforms": {
+            "baidu": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 2,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 2,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 11,
+              "engaged": 8,
+              "organic_sessions": 2,
+              "referral_sessions": 9
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 32,
+              "engaged": 13,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "platforms": {
+            "baidu": {
+              "sessions": 4,
+              "engaged": 4,
+              "organic_sessions": 3,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 8,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 8
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 109,
+              "engaged": 32,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "platforms": {
+            "baidu": {
+              "sessions": 3,
+              "engaged": 2,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 3,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 18,
+              "engaged": 8,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 6,
+              "organic_sessions": 8,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 13,
+              "engaged": 7,
+              "organic_sessions": 0,
+              "referral_sessions": 13
+            },
+            "other_search": {
+              "sessions": 2,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 2
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 46,
+              "engaged": 13,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-06",
+          "platforms": {
+            "baidu": {
+              "sessions": 4,
+              "engaged": 4,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 7,
+              "engaged": 6,
+              "organic_sessions": 1,
+              "referral_sessions": 6
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 27,
+              "engaged": 12,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "platforms": {
+            "baidu": {
+              "sessions": 6,
+              "engaged": 4,
+              "organic_sessions": 5,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 3,
+              "engaged": 0,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 6,
+              "engaged": 6,
+              "organic_sessions": 0,
+              "referral_sessions": 6
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 14,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-08",
+          "platforms": {
+            "baidu": {
+              "sessions": 6,
+              "engaged": 2,
+              "organic_sessions": 5,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 5,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 4,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 4
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 9,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-09",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 3,
+              "organic_sessions": 8,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 17,
+              "engaged": 10,
+              "organic_sessions": 17,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 9,
+              "engaged": 4,
+              "organic_sessions": 4,
+              "referral_sessions": 5
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 41,
+              "engaged": 11,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-10",
+          "platforms": {
+            "baidu": {
+              "sessions": 12,
+              "engaged": 8,
+              "organic_sessions": 12,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 7,
+              "engaged": 3,
+              "organic_sessions": 7,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 9,
+              "engaged": 7,
+              "organic_sessions": 0,
+              "referral_sessions": 9
+            },
+            "other_search": {
+              "sessions": 3,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 43,
+              "engaged": 22,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-11",
+          "platforms": {
+            "baidu": {
+              "sessions": 10,
+              "engaged": 7,
+              "organic_sessions": 10,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 7,
+              "engaged": 4,
+              "organic_sessions": 7,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 9,
+              "engaged": 6,
+              "organic_sessions": 1,
+              "referral_sessions": 8
+            },
+            "other_search": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 54,
+              "engaged": 21,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-12",
+          "platforms": {
+            "baidu": {
+              "sessions": 8,
+              "engaged": 4,
+              "organic_sessions": 8,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 2,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 14,
+              "engaged": 10,
+              "organic_sessions": 1,
+              "referral_sessions": 13
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 41,
+              "engaged": 18,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-13",
+          "platforms": {
+            "baidu": {
+              "sessions": 5,
+              "engaged": 3,
+              "organic_sessions": 4,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 9,
+              "engaged": 6,
+              "organic_sessions": 9,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 3,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 4,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "direct": {
+              "sessions": 25,
+              "engaged": 5,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-14",
+          "platforms": {
+            "baidu": {
+              "sessions": 2,
+              "engaged": 1,
+              "organic_sessions": 1,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 3,
+              "engaged": 2,
+              "organic_sessions": 3,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 23,
+              "engaged": 3,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other": {
+              "sessions": 2,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        },
+        {
+          "date": "2026-11-15",
+          "platforms": {
+            "baidu": {
+              "sessions": 5,
+              "engaged": 4,
+              "organic_sessions": 4,
+              "referral_sessions": 1
+            },
+            "google": {
+              "sessions": 6,
+              "engaged": 3,
+              "organic_sessions": 6,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "direct": {
+              "sessions": 8,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
+        }
+      ]
+    },
     "scheduled_collection": true,
     "sync_status": {
       "status": "success",
@@ -942,7 +4277,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-16T10:03:24+08:00",
+    "generated_at": "2026-11-16T10:26:26+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-16T09:53:38+08:00",
