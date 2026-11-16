@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:45:06+08:00",
+  "generated_at": "2026-11-16T09:53:39+08:00",
   "site_url": "https://www.linkcrux.com/",
   "marketing_review": {
     "id": "blog_launch_20261028",
@@ -175,24 +175,24 @@
     "automatic_sync": false,
     "scheduled_collection": true,
     "sync_status": {
-      "status": "failed",
-      "checked_at": "2026-11-15T16:20:59+08:00",
-      "last_successful_capture_at": "2026-11-14T17:00:51.396290+08:00",
-      "target_date": "2026-11-14",
-      "failure_kind": "browser_locked"
+      "status": "success",
+      "checked_at": "2026-11-16T09:51:20+08:00",
+      "last_successful_capture_at": "2026-11-16T09:51:14.998154+08:00",
+      "target_date": "2026-11-15",
+      "data_through": "2026-11-15"
     },
-    "last_successful_capture_at": "2026-11-14T17:00:51.396290+08:00",
+    "last_successful_capture_at": "2026-11-16T09:51:14.998154+08:00",
     "data_start": "2026-09-15",
-    "data_end": "2026-11-13",
+    "data_end": "2026-11-15",
     "channel_report_complete": true,
     "sources": [
       {
-        "file": "ga4-visits-20260810-20261113-captured-20261114.csv",
-        "sha256": "ae4e4fd520e2cc0e4f55f0bb38cb676b9a6fd6f5ae27a2374e7d8ad30ff05aaa"
+        "file": "ga4-visits-20260810-20261115-captured-20261116.csv",
+        "sha256": "82fcda729e3a207c18ba817769095c3cb75230092b12989784865dfb13c9e8c2"
       },
       {
-        "file": "ga4-channels-20260810-20261113-captured-20261114.csv",
-        "sha256": "04e9141bf1b9dbb7d39e4ff37f68d8321f3948c4fd59bc8a9c328acc2ee23d6a"
+        "file": "ga4-channels-20260810-20261115-captured-20261116.csv",
+        "sha256": "27e750654f1c16d8a1745c73872be3b1066509bf608471695cce640a7f2dc381"
       }
     ],
     "daily": [
@@ -915,17 +915,39 @@
           "Referral": 1
         },
         "organic_engaged": 12
+      },
+      {
+        "date": "2026-11-14",
+        "pv": 45,
+        "uv": 29,
+        "new_users": 25,
+        "channels": {
+          "Organic Search": 7,
+          "Direct": 23,
+          "Referral": 0
+        },
+        "organic_engaged": 5
+      },
+      {
+        "date": "2026-11-15",
+        "pv": 40,
+        "uv": 16,
+        "new_users": 11,
+        "channels": {
+          "Organic Search": 12,
+          "Direct": 8,
+          "Referral": 0
+        },
+        "organic_engaged": 8
       }
     ]
   },
   "search": {
-    "generated_at": "2026-11-15T17:45:06+08:00",
+    "generated_at": "2026-11-16T09:53:38+08:00",
     "baidu_status": {
-      "status": "failed",
-      "checked_at": "2026-11-15T16:20:59+08:00",
-      "last_successful_capture_at": "2026-11-14T17:12:47.531+08:00",
-      "target_date": "2026-11-14",
-      "failure_kind": "browser_locked"
+      "status": "success",
+      "checked_at": "2026-11-16T09:53:38+08:00",
+      "last_successful_capture_at": "2026-11-16T09:53:33.521985+08:00"
     },
     "baidu_daily": [
       {
@@ -987,6 +1009,16 @@
         "impressions": 9,
         "ctr": 0.2222222222222222,
         "captured_at": "2026-11-14T17:12:47.531+08:00"
+      },
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "day",
+        "date": "2026-11-15",
+        "clicks": 2,
+        "impressions": 5,
+        "ctr": 0.4,
+        "captured_at": "2026-11-16T09:53:33.521985+08:00"
       }
     ],
     "baidu_period_snapshots": [
@@ -1013,6 +1045,18 @@
         "impressions": 340,
         "ctr": 0.3411764705882353,
         "captured_at": "2026-11-09T10:01:25.751+08:00"
+      },
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "rolling_30_days",
+        "date_start": "2026-10-17",
+        "date_end": "2026-11-15",
+        "as_of_date": "2026-11-16",
+        "clicks": 107,
+        "impressions": 277,
+        "ctr": 0.3862815884476534,
+        "captured_at": "2026-11-16T09:53:33.521985+08:00"
       }
     ],
     "bing_status": {
