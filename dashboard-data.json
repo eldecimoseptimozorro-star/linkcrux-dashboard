@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-16T10:26:26+08:00",
+  "generated_at": "2026-11-16T10:43:16+08:00",
   "site_url": "https://www.linkcrux.com/",
+  "time_policy": {
+    "timezone": "Asia/Shanghai",
+    "statistics_through": "2026-11-15",
+    "default_period": 14,
+    "rolling_days": [
+      7,
+      14,
+      28
+    ],
+    "rolling_comparison": "previous_equal_length",
+    "month_to_date_comparison": "previous_month_same_dates",
+    "calendar_month_comparison": "previous_calendar_month_daily_average",
+    "incomplete_periods": "no_aggregate_or_change",
+    "fixed_reviews": "independent_date_ranges",
+    "search_console_timezone": "America/Los_Angeles"
+  },
   "marketing_review": {
     "id": "blog_launch_20261028",
     "title": "博客上线阶段复盘",
@@ -4277,7 +4293,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-16T10:26:26+08:00",
+    "generated_at": "2026-11-16T10:43:16+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-16T09:53:38+08:00",
@@ -4514,6 +4530,6 @@
     "日均 UV 按每日用户总数求平均，不能替代区间去重 UV。",
     "自然搜索会话与站长平台点击的统计口径不同。",
     "渠道会话按官方日期明细汇总，逐日合计可能与 GA4 区间总计不同；两者独立归档。",
-    "关闭活动日时，两段完整周期同步剔除相同位置的日期；活动后续访问仍可能保留。"
+    "关闭活动日时，两段周期按日序同步剔除；自然月天数不同时比较日均，活动后续访问仍可能保留。"
   ]
 }
