@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:31:29+08:00",
+  "generated_at": "2026-11-18T10:49:03+08:00",
   "site_url": "https://www.linkcrux.com/",
   "time_policy": {
     "timezone": "Asia/Shanghai",
@@ -4294,13 +4294,11 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-18T07:31:29+08:00",
+    "generated_at": "2026-11-18T10:49:03+08:00",
     "baidu_status": {
-      "status": "failed",
-      "checked_at": "2026-11-18T07:31:29+08:00",
-      "last_successful_capture_at": "2026-11-16T09:53:33.521985+08:00",
-      "target_date": "2026-11-17",
-      "failure_kind": "browser_locked"
+      "status": "success",
+      "checked_at": "2026-11-18T10:49:03+08:00",
+      "last_successful_capture_at": "2026-11-18T10:49:02.792454+08:00"
     },
     "baidu_daily": [
       {
@@ -4372,6 +4370,16 @@
         "impressions": 5,
         "ctr": 0.4,
         "captured_at": "2026-11-16T09:53:33.521985+08:00"
+      },
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "day",
+        "date": "2026-11-16",
+        "clicks": 4,
+        "impressions": 8,
+        "ctr": 0.5,
+        "captured_at": "2026-11-18T10:49:02.792454+08:00"
       }
     ],
     "baidu_period_snapshots": [
