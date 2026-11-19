@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T11:05:36+08:00",
+  "generated_at": "2026-11-19T12:24:18+08:00",
   "site_url": "https://www.linkcrux.com/",
   "time_policy": {
     "timezone": "Asia/Shanghai",
@@ -193,10 +193,11 @@
       "mode": "official_browser_export",
       "unit": "sessions",
       "sync_status": {
-        "status": "success",
-        "checked_at": "2026-11-18T10:59:35+08:00",
+        "status": "failed",
+        "checked_at": "2026-11-19T12:24:18+08:00",
         "last_successful_capture_at": "2026-11-18T10:59:13.578989+08:00",
-        "target_date": "2026-11-17",
+        "target_date": "2026-11-18",
+        "failure_kind": "browser_control_interrupted",
         "data_through": "2026-11-17"
       },
       "data_start": "2026-09-15",
@@ -3632,11 +3633,11 @@
     },
     "scheduled_collection": true,
     "sync_status": {
-      "status": "success",
-      "checked_at": "2026-11-18T10:59:35+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-19T12:24:18+08:00",
       "last_successful_capture_at": "2026-11-18T10:59:13.578989+08:00",
-      "target_date": "2026-11-17",
-      "data_through": "2026-11-17"
+      "target_date": "2026-11-18",
+      "failure_kind": "browser_control_interrupted"
     },
     "last_successful_capture_at": "2026-11-18T10:59:13.578989+08:00",
     "data_start": "2026-09-15",
@@ -4424,13 +4425,11 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-18T11:05:36+08:00",
+    "generated_at": "2026-11-19T12:24:18+08:00",
     "baidu_status": {
-      "status": "failed",
-      "checked_at": "2026-11-18T11:04:56.743461+08:00",
-      "last_successful_capture_at": "2026-11-18T10:49:02.792454+08:00",
-      "target_date": "2026-11-17",
-      "failure_kind": "ui_export_mismatch"
+      "status": "success",
+      "checked_at": "2026-11-19T12:24:18+08:00",
+      "last_successful_capture_at": "2026-11-19T12:24:03.293292+08:00"
     },
     "baidu_daily": [
       {
@@ -4512,6 +4511,16 @@
         "impressions": 8,
         "ctr": 0.5,
         "captured_at": "2026-11-18T10:49:02.792454+08:00"
+      },
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "day",
+        "date": "2026-11-18",
+        "clicks": 8,
+        "impressions": 17,
+        "ctr": 0.47058823529411764,
+        "captured_at": "2026-11-19T12:24:03.293292+08:00"
       }
     ],
     "baidu_period_snapshots": [
@@ -4557,10 +4566,10 @@
       "checked_at": "2026-11-04T15:02:23+08:00"
     },
     "gsc_status": {
-      "status": "success",
-      "checked_at": "2026-11-18T11:02:20+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-19T12:24:18+08:00",
       "last_successful_capture_at": "2026-11-18T11:02:20.759513+08:00",
-      "data_through": "2026-11-14"
+      "failure_kind": "browser_control_interrupted"
     },
     "gsc": {
       "mode": "official_browser_export",
