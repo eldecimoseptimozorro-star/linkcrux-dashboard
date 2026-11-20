@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:11:16+08:00",
+  "generated_at": "2026-11-20T12:17:31+08:00",
   "site_url": "https://www.linkcrux.com/",
   "time_policy": {
     "timezone": "Asia/Shanghai",
@@ -220,7 +220,7 @@
     ]
   },
   "analysis_review": {
-    "reviewed_on": "2026-11-19",
+    "reviewed_on": "2026-11-20",
     "home_period_start": "2026-11-02",
     "home_period_end": "2026-11-08",
     "key_events": 0,
@@ -251,61 +251,69 @@
         "organic_engagement_rate": 0.7543859649122807
       },
       "previous": {
-        "start": "2026-10-22",
-        "end": "2026-11-04",
+        "start": "2026-10-23",
+        "end": "2026-11-05",
         "days": 14,
-        "daily_pv": 165.0,
-        "daily_uv": 49.07142857142857,
-        "daily_new_users": 40.0,
-        "organic_sessions": 232,
-        "daily_organic_sessions": 16.571428571428573,
-        "organic_engagement_rate": 0.6982758620689655
+        "daily_pv": 139.0,
+        "daily_uv": 53.0,
+        "daily_new_users": 44.214285714285715,
+        "organic_sessions": 236,
+        "daily_organic_sessions": 16.857142857142858,
+        "organic_engagement_rate": 0.6779661016949152
       },
       "current": {
-        "start": "2026-11-05",
-        "end": "2026-11-18",
+        "start": "2026-11-06",
+        "end": "2026-11-19",
         "days": 14,
-        "daily_pv": 251.57142857142858,
-        "daily_uv": 49.357142857142854,
-        "daily_new_users": 38.92857142857143,
-        "organic_sessions": 298,
-        "daily_organic_sessions": 21.285714285714285,
-        "organic_engagement_rate": 0.6543624161073825
+        "daily_pv": 251.92857142857142,
+        "daily_uv": 47.214285714285715,
+        "daily_new_users": 36.57142857142857,
+        "organic_sessions": 292,
+        "daily_organic_sessions": 20.857142857142858,
+        "organic_engagement_rate": 0.660958904109589
       },
       "includes_known_activity_date": "2026-11-03",
       "activity_note": "前期含11/3、11/4活动访问；本期存在新活动UTM到站。此为未剔除全量对比，不能归因于博客独立贡献。固定博客复盘保持独立日期。",
       "source": "official_browser_export",
-      "captured_at": "2026-11-19T13:29:09.806197+08:00"
+      "captured_at": "2026-11-20T12:06:06.483000+08:00"
     },
     "latest_day_review": {
-      "date": "2026-11-15",
-      "pv": 40,
-      "uv": 16,
-      "new_users": 11,
-      "recruitment_pv": 3,
-      "recruitment_active_users": 2,
-      "contact_page_pv": 0,
-      "contact_page_active_users": 0,
-      "blog_pv": 1,
-      "blog_article_pv": 1,
-      "blog_article_count": 1,
-      "page_rows": 7,
-      "source": "GA4 official page-path report and verified daily export",
-      "captured_at": "2026-11-16T09:57:59.582292+08:00",
-      "note": "7行完整页面表中未列出/contact，联系页PV仅表示本报表无记录，不代表有效线索为零；页面活跃用户不能相加作全站UV。博客1PV/1页面活跃用户，不能仅凭单日判断主题效果。",
-      "landing_sessions_total_ui": 21,
-      "blog_landing_sessions": 1,
-      "blog_landing_pages": 1,
-      "recruitment_landing_sessions": 0,
-      "source_medium_rows": 6,
+      "date": "2026-11-19",
+      "pv": 192,
+      "uv": 68,
+      "new_users": 57,
+      "recruitment_pv": 17,
+      "recruitment_active_users": 15,
+      "contact_page_pv": 1,
+      "contact_page_active_users": 1,
+      "blog_pv": 58,
+      "blog_article_pv": 47,
+      "blog_article_count": 21,
+      "business_pages_pv": 48,
+      "page_rows": 37,
+      "source": "GA4 official page-path, landing-page and events interface plus verified daily export",
+      "captured_at": "2026-11-20T12:13:41.330000+08:00",
+      "page_captured_at": "2026-11-20T12:12:34.319000+08:00",
+      "landing_captured_at": "2026-11-20T12:13:20.509000+08:00",
+      "landing_sessions_total_ui": 84,
+      "landing_sessions_row_sum": 93,
+      "blog_landing_sessions": 13,
+      "blog_landing_pages": 11,
+      "recruitment_landing_sessions": 8,
+      "source_medium_rows": 8,
       "event_names_observed": [
         "page_view",
         "session_start",
-        "scroll",
         "user_engagement",
-        "first_visit"
+        "first_visit",
+        "scroll",
+        "form_start",
+        "click"
       ],
-      "submit_success_event_observed": false
+      "form_start_count": 2,
+      "form_start_total_users": 2,
+      "submit_success_event_observed": false,
+      "note": "37页面PV合计192与日表一致；活跃用户不相加作UV。博客访问不是新增潜客。2次form_start尚未核对具体表单、路径或成功回执；完整事件表未见form_submit/成功提交，不等于真实零线索。着陆页行合计93与区间84分别归档，和来源行合计95不强行对平。"
     }
   },
   "publication": {
@@ -4680,7 +4688,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-20T12:11:16+08:00",
+    "generated_at": "2026-11-20T12:17:31+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-20T12:11:16+08:00",
