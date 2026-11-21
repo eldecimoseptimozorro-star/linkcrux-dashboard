@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:17:31+08:00",
+  "generated_at": "2026-11-21T12:00:08+08:00",
   "site_url": "https://www.linkcrux.com/",
   "time_policy": {
     "timezone": "Asia/Shanghai",
@@ -327,10 +327,11 @@
       "mode": "official_browser_export",
       "unit": "sessions",
       "sync_status": {
-        "status": "success",
-        "checked_at": "2026-11-20T12:07:25+08:00",
+        "status": "failed",
+        "checked_at": "2026-11-21T12:00:01+08:00",
         "last_successful_capture_at": "2026-11-20T12:06:06.483000+08:00",
-        "target_date": "2026-11-19",
+        "target_date": "2026-11-20",
+        "failure_kind": "browser_window_unavailable",
         "data_through": "2026-11-19"
       },
       "data_start": "2026-09-15",
@@ -3872,11 +3873,11 @@
     },
     "scheduled_collection": true,
     "sync_status": {
-      "status": "success",
-      "checked_at": "2026-11-20T12:07:25+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-21T12:00:01+08:00",
       "last_successful_capture_at": "2026-11-20T12:06:06.483000+08:00",
-      "target_date": "2026-11-19",
-      "data_through": "2026-11-19"
+      "target_date": "2026-11-20",
+      "failure_kind": "browser_window_unavailable"
     },
     "last_successful_capture_at": "2026-11-20T12:06:06.483000+08:00",
     "data_start": "2026-09-15",
@@ -4688,11 +4689,13 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-20T12:17:31+08:00",
+    "generated_at": "2026-11-21T12:00:08+08:00",
     "baidu_status": {
-      "status": "success",
-      "checked_at": "2026-11-20T12:11:16+08:00",
-      "last_successful_capture_at": "2026-11-20T12:10:44.572000+08:00"
+      "status": "failed",
+      "checked_at": "2026-11-21T12:00:01+08:00",
+      "last_successful_capture_at": "2026-11-20T12:10:44.572000+08:00",
+      "target_date": "2026-11-20",
+      "failure_kind": "browser_window_unavailable"
     },
     "baidu_daily": [
       {
@@ -4839,10 +4842,10 @@
       "checked_at": "2026-11-04T15:02:23+08:00"
     },
     "gsc_status": {
-      "status": "success",
-      "checked_at": "2026-11-20T12:10:06+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-21T12:00:01+08:00",
       "last_successful_capture_at": "2026-11-20T12:08:50.780000+08:00",
-      "data_through": "2026-11-16"
+      "failure_kind": "browser_window_unavailable"
     },
     "gsc": {
       "mode": "official_browser_export",
