@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-11-25T10:55:34+08:00",
+  "generated_at": "2026-11-25T11:22:00+08:00",
   "site_url": "https://www.linkcrux.com/",
   "search_incidents": [
+    {
+      "id": "public_business_pages_noindex_20261125",
+      "source": "site_seo",
+      "priority": "P1",
+      "status": "open",
+      "data_through": "2026-11-25",
+      "title": "22个公开业务页面被禁止收录",
+      "period": "2026/11/25 实时复核",
+      "fact": "12个案例、8个数智员工详情及2个列表均带noindex/nofollow，且未进Sitemap；GSC实时抓取确认雅虎页无法编入索引。",
+      "action": "修正前端索引规则并补充Sitemap；已提交现有Sitemap并成功识别120页。当前缺官网源码与部署入口，22页尚未修复。",
+      "next_verification": "上线后核对22页初始HTML、响应头、Sitemap及GSC实际网址测试；不能据此断定百度双零根因。"
+    },
     {
       "id": "baidu_pc_zero_2026-11-22",
       "source": "baidu_pc",
@@ -5043,7 +5055,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-25T10:55:34+08:00",
+    "generated_at": "2026-11-25T11:22:00+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-25T10:32:31+08:00",
