@@ -1,6 +1,35 @@
 {
-  "generated_at": "2026-11-25T10:36:12+08:00",
+  "generated_at": "2026-11-25T10:55:34+08:00",
   "site_url": "https://www.linkcrux.com/",
+  "search_incidents": [
+    {
+      "id": "baidu_pc_zero_2026-11-22",
+      "source": "baidu_pc",
+      "priority": "P1",
+      "status": "open",
+      "started_on": "2026-11-22",
+      "data_through": "2026-11-24",
+      "consecutive_days": 3,
+      "title": "百度PC搜索连续归零，原因未定位",
+      "period": "2026-11-22—2026-11-24",
+      "fact": "连续3个已核对完整日曝光、点击均为0；PC口径，不代表全站或移动搜索归零。",
+      "action": "按异常处理：核对品牌词、官方索引与抓取异常，并查真实蜘蛛日志；未查明前保留未定位状态。",
+      "next_verification": "平台数据回拉、官方索引/抓取记录与服务器访问日志；仅HTTP200不能结案。"
+    },
+    {
+      "id": "google_click_loss",
+      "source": "gsc",
+      "priority": "P1",
+      "status": "open",
+      "started_on": "2026-11-14",
+      "data_through": "2026-11-20",
+      "title": "谷歌搜索点击明显回落，需拆查询和页面",
+      "period": "2026-11-14—2026-11-20 对比 2026-11-07—2026-11-13",
+      "fact": "曝光188→203，点击36→14，点击率19.1%→6.9%。",
+      "action": "先查品牌/非品牌、页面、设备的点击损失，结合索引报告定位；没有拆分证据前不认定为标题或排名问题。",
+      "next_verification": "同周期查询与页面差额、官方索引、真实抓取；保留太平洋时间。"
+    }
+  ],
   "time_policy": {
     "timezone": "Asia/Shanghai",
     "statistics_through": "2026-11-23",
@@ -5014,7 +5043,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-25T10:36:11+08:00",
+    "generated_at": "2026-11-25T10:55:34+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-25T10:32:31+08:00",
