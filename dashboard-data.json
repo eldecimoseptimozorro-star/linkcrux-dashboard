@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:32:31+08:00",
+  "generated_at": "2026-11-25T10:36:12+08:00",
   "site_url": "https://www.linkcrux.com/",
   "time_policy": {
     "timezone": "Asia/Shanghai",
@@ -392,10 +392,11 @@
       "mode": "official_browser_export",
       "unit": "sessions",
       "sync_status": {
-        "status": "success",
-        "checked_at": "2026-11-24T09:39:36+08:00",
+        "status": "failed",
+        "checked_at": "2026-11-25T10:35:02+08:00",
         "last_successful_capture_at": "2026-11-24T01:38:17.003Z",
-        "target_date": "2026-11-23",
+        "target_date": "2026-11-24",
+        "failure_kind": "browser_control_interrupted",
         "data_through": "2026-11-23"
       },
       "data_start": "2026-09-15",
@@ -4149,11 +4150,11 @@
     },
     "scheduled_collection": true,
     "sync_status": {
-      "status": "success",
-      "checked_at": "2026-11-24T09:39:36+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-25T10:35:02+08:00",
       "last_successful_capture_at": "2026-11-24T01:38:17.003Z",
-      "target_date": "2026-11-23",
-      "data_through": "2026-11-23"
+      "target_date": "2026-11-24",
+      "failure_kind": "browser_control_interrupted"
     },
     "last_successful_capture_at": "2026-11-24T01:38:17.003Z",
     "data_start": "2026-09-15",
@@ -5013,7 +5014,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-25T10:32:31+08:00",
+    "generated_at": "2026-11-25T10:36:11+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-25T10:32:31+08:00",
@@ -5236,10 +5237,10 @@
       "checked_at": "2026-11-04T15:02:23+08:00"
     },
     "gsc_status": {
-      "status": "success",
-      "checked_at": "2026-11-24T12:04:00+08:00",
+      "status": "failed",
+      "checked_at": "2026-11-25T10:35:02+08:00",
       "last_successful_capture_at": "2026-11-24T04:02:02.521Z",
-      "data_through": "2026-11-20"
+      "failure_kind": "browser_control_interrupted"
     },
     "gsc": {
       "mode": "official_browser_export",
