@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:07:38+08:00",
+  "generated_at": "2026-11-26T10:16:07+08:00",
   "site_url": "https://www.linkcrux.com/",
   "search_incidents": [
     {
@@ -20,11 +20,11 @@
       "priority": "P1",
       "status": "open",
       "started_on": "2026-11-22",
-      "data_through": "2026-11-24",
-      "consecutive_days": 3,
+      "data_through": "2026-11-25",
+      "consecutive_days": 4,
       "title": "百度PC搜索连续归零，原因未定位",
-      "period": "2026-11-22—2026-11-24",
-      "fact": "连续3个已核对完整日曝光、点击均为0；PC口径，不代表全站或移动搜索归零。",
+      "period": "2026-11-22—2026-11-25",
+      "fact": "连续4个已核对完整日曝光、点击均为0；PC口径，不代表全站或移动搜索归零。",
       "action": "按异常处理：核对品牌词、官方索引与抓取异常，并查真实蜘蛛日志；未查明前保留未定位状态。",
       "next_verification": "平台数据回拉、官方索引/抓取记录与服务器访问日志；仅HTTP200不能结案。"
     },
@@ -33,18 +33,18 @@
       "source": "gsc",
       "priority": "P1",
       "status": "open",
-      "started_on": "2026-11-16",
-      "data_through": "2026-11-22",
+      "started_on": "2026-11-17",
+      "data_through": "2026-11-23",
       "title": "谷歌搜索点击明显回落，需拆查询和页面",
-      "period": "2026-11-16—2026-11-22 对比 2026-11-09—2026-11-15",
-      "fact": "曝光176→254，点击24→15，点击率13.6%→5.9%。",
+      "period": "2026-11-17—2026-11-23 对比 2026-11-10—2026-11-16",
+      "fact": "曝光180→389，点击25→12，点击率13.9%→3.1%。",
       "action": "先查品牌/非品牌、页面、设备的点击损失，结合索引报告定位；没有拆分证据前不认定为标题或排名问题。",
       "next_verification": "同周期查询与页面差额、官方索引、真实抓取；保留太平洋时间。"
     }
   ],
   "time_policy": {
     "timezone": "Asia/Shanghai",
-    "statistics_through": "2026-11-24",
+    "statistics_through": "2026-11-25",
     "default_period": 14,
     "rolling_days": [
       7,
@@ -358,11 +358,11 @@
       "note": "18页面PV125与日表一致。博客3PV/1篇，2次着陆会话；页面活跃用户不相加作全站UV。7事件表未列form_start或成功提交，不能判断实际线索为零。着陆页控制58会话、行合计61分别归档，不强行与来源日行61或session_start事件58对平。"
     },
     "growth_diagnosis": {
-      "reviewed_on": "2026-11-24",
-      "ga4_through": "2026-11-23",
-      "gsc_through": "2026-11-20",
+      "reviewed_on": "2026-11-26",
+      "ga4_through": "2026-11-25",
+      "gsc_through": "2026-11-23",
       "leads_through": "2026-11-18",
-      "summary": "日常拉新回升，搜索增长尚未加速；百度到站增加，谷歌需优先排查，博客获客贡献仍待咨询归因验证。",
+      "summary": "访客和新用户增加，自然会话减少。百度 PC 连续四日双零，谷歌曝光扩大、点击减少。",
       "boundaries": [
         "这是有日期的固定复盘，独立于全局筛选；新数据需重新计算并审核结论，不能只更新复盘日期。",
         "不把滚动14天连续观测当多份独立样本；以非重叠完整7天与14天确认变化。",
@@ -371,43 +371,43 @@
       "items": [
         {
           "id": "acquisition",
-          "topic": "拉新在恢复",
-          "period": "11/17—23 对比 11/10—16",
-          "fact": "日均访客45.9→48.7（+6.2%），日均新访客34.4→39.3（+14.1%）；自然会话138→130（-5.8%）。",
-          "interpretation": "最新一周全站拉新回升，但自然搜索没有同步增加。14天访客下降不能直接解释为日常获客持续恶化。",
-          "hypothesis": "前一个14天含11/3活动高峰，抬高比较基数；按现有规则对称剔除11/3与11/17后，日均访客为41.9→47.0（+12.1%）、新访客33.5→36.8（+9.6%）。仅为敏感性分析，不能去除活动的全部后续影响。",
-          "action": "拉新与自然搜索分开评估；观察下一完整7天新增用户和有互动的业务到站。",
-          "validation": "下一完整7天新用户绝对量、自然会话与业务页互动；保留固定14天对比及活动注释。"
+          "topic": "拉新增加，自然搜索回落",
+          "period": "11/19–25 对比 11/12–18",
+          "fact": "日均访客 43.6→47.0（+7.9%），日均新访客 32.7→39.0（+19.2%），自然会话 140→101（-27.9%）。",
+          "interpretation": "近七天自然搜索下降与全站拉新方向不同。",
+          "hypothesis": "平台和落地页构成变化仍需核对。",
+          "action": "继续追踪百度品牌词、自然会话和业务落地页访问。",
+          "validation": "下一个完整 7 天的日均新访客、自然会话与业务落地互动。"
         },
         {
           "id": "search_platforms",
-          "topic": "百度是平台增量来源",
-          "period": "11/10—23 对比 10/27—11/9",
-          "fact": "百度到站会话72→106（+34）；谷歌68→61（-7）；必应114→96（-18）。",
-          "interpretation": "三大搜索平台的增量集中在百度，尚未形成多个平台同步增长。",
-          "hypothesis": "品牌需求、业务词及落地页构成可能不同，现有平台汇总不能判断新增是否为采购需求。",
-          "action": "百度优先保留有业务互动的主题；谷歌查流失查询与落地页，必应暂不按波动调整投入。",
-          "validation": "各平台同长会话、互动、非品牌业务词点击与可归因咨询；平台含自然和引荐，不作为UV或默认自然搜索。"
+          "topic": "百度和谷歌到站减少",
+          "period": "11/19–25 对比 11/12–18",
+          "fact": "百度到站 55→33，谷歌 37→22，必应 43→45。必应最新单日 8 次到站含 7 次引荐。",
+          "interpretation": "百度和谷歌到站减少，必应综合到站小幅增加。",
+          "hypothesis": "百度品牌可见度下降仍需按抓取日志与词表验证。",
+          "action": "优先核对百度品牌搜索及官网常规抓取。",
+          "validation": "各平台自然到站和引荐会话，百度 PC 展现、点击与实际抓取日志。"
         },
         {
           "id": "google",
-          "topic": "谷歌优先排查",
-          "period": "GA4：11/17—23 对11/10—16；GSC：11/14—20 对11/7—13",
-          "fact": "GA4谷歌到站40→21；GSC点击36→14、曝光188→203，点击率19.1%→6.9%。",
-          "interpretation": "GA4近期到站减少；GSC最新独立7天曝光增加但点击减少，优先核查点击效率与查询构成，不能概括成曝光不足。",
-          "hypothesis": "查询组合、搜索意图或标题摘要吸引力可能变化。仍缺两周查询和页面对应拆分，不能认定是某篇文章或标题导致。",
-          "action": "先查减少点击的查询和页面；两篇已有曝光但零点击的业务文章，核对意图后做小范围标题/摘要试验。",
-          "validation": "相同页面和查询的曝光、点击率、排名、GA4落地互动及真实咨询；两平台时区和日期分别比较，不强行对账。"
+          "topic": "谷歌曝光增加，点击仍降",
+          "period": "11/17–23 对比 11/10–16（太平洋时间）",
+          "fact": "曝光 180→389，点击 25→12，点击率 13.9%→3.1%。11/23 为 162 展现、3 点击。",
+          "interpretation": "点击损失仍需按查询与落地页拆分。",
+          "hypothesis": "新增曝光的搜索意图、排名与结果摘要尚待逐项核对。",
+          "action": "先看 11/23 新增曝光的查询和落地页，再决定是否调整标题摘要。",
+          "validation": "同页、同查询点击及点击率和落地互动。"
         },
         {
           "id": "pageviews",
           "topic": "PV不代表拉新",
-          "period": "11/10—23 对比 10/27—11/9；页面明细为11/10观察",
-          "fact": "日均PV134.1→253.0（+88.6%），但日均新访客47.9→36.9（-23.0%）；11/10的980PV占本期27.7%。",
-          "interpretation": "本期浏览量扩张与拉新走势分离，集中浏览对总量影响大。",
-          "hypothesis": "少量用户深度浏览、内部演示或重复触发均待核实。11/10三个业务页389PV，各页面仅3—5位活跃用户；不能直接判为异常或机器人。",
-          "action": "先核对11/10演示/测试和页面触发，把业务访客、招聘与内部使用分开看；暂不改过滤器。",
-          "validation": "页面PV与用户构成、来源、内部测试记录，以及后续咨询；保留原始数据。"
+          "period": "11/19–25 对比 11/12–18",
+          "fact": "日均 PV 211→135.3（-35.9%），日均访客 +7.9%。11/25 为 152 PV，11/24 为 76 PV。",
+          "interpretation": "浏览深度或页面结构变化待核对。",
+          "hypothesis": "页面级访问分布未重新核实。",
+          "action": "下次读取业务页与招聘页的页面明细。",
+          "validation": "页面分布、每位活跃用户浏览量、业务页互动。"
         },
         {
           "id": "content_conversion",
@@ -434,13 +434,13 @@
       "unit": "sessions",
       "sync_status": {
         "status": "success",
-        "checked_at": "2026-11-25T14:07:25+08:00",
-        "last_successful_capture_at": "2026-11-25T14:01:39.012+08:00",
-        "target_date": "2026-11-24",
-        "data_through": "2026-11-24"
+        "checked_at": "2026-11-26T10:13:58+08:00",
+        "last_successful_capture_at": "2026-11-26T10:02:11.426+08:00",
+        "target_date": "2026-11-25",
+        "data_through": "2026-11-25"
       },
       "data_start": "2026-09-15",
-      "data_end": "2026-11-24",
+      "data_end": "2026-11-25",
       "platforms": [
         {
           "id": "baidu",
@@ -4238,29 +4238,82 @@
               "referral_sessions": 0
             }
           }
+        },
+        {
+          "date": "2026-11-25",
+          "platforms": {
+            "baidu": {
+              "sessions": 1,
+              "engaged": 0,
+              "organic_sessions": 1,
+              "referral_sessions": 0
+            },
+            "google": {
+              "sessions": 4,
+              "engaged": 1,
+              "organic_sessions": 4,
+              "referral_sessions": 0
+            },
+            "bing": {
+              "sessions": 8,
+              "engaged": 7,
+              "organic_sessions": 1,
+              "referral_sessions": 7
+            },
+            "other_search": {
+              "sessions": 0,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "ai": {
+              "sessions": 1,
+              "engaged": 1,
+              "organic_sessions": 0,
+              "referral_sessions": 1
+            },
+            "direct": {
+              "sessions": 36,
+              "engaged": 14,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            },
+            "other_referral": {
+              "sessions": 3,
+              "engaged": 2,
+              "organic_sessions": 0,
+              "referral_sessions": 3
+            },
+            "other": {
+              "sessions": 7,
+              "engaged": 0,
+              "organic_sessions": 0,
+              "referral_sessions": 0
+            }
+          }
         }
       ]
     },
     "scheduled_collection": true,
     "sync_status": {
       "status": "success",
-      "checked_at": "2026-11-25T14:07:25+08:00",
-      "last_successful_capture_at": "2026-11-25T14:01:08.988+08:00",
-      "target_date": "2026-11-24",
-      "data_through": "2026-11-24"
+      "checked_at": "2026-11-26T10:13:58+08:00",
+      "last_successful_capture_at": "2026-11-26T10:02:50.529+08:00",
+      "target_date": "2026-11-25",
+      "data_through": "2026-11-25"
     },
-    "last_successful_capture_at": "2026-11-25T14:01:08.988+08:00",
+    "last_successful_capture_at": "2026-11-26T10:02:50.529+08:00",
     "data_start": "2026-09-15",
-    "data_end": "2026-11-24",
+    "data_end": "2026-11-25",
     "channel_report_complete": true,
     "sources": [
       {
-        "file": "ga4-visits-20261118-20261124-captured-20261125.csv",
-        "sha256": "8895ccc9bc6e47286f716ab490199dc541f43bbfe15944a60e0372fdf38fa69a"
+        "file": "ga4-visits-20261119-20261125-captured-20261126.csv",
+        "sha256": "93afe403569cfe2a5c4a4ee0a0f273d4a590a8bfc2500b718c52c978a576730b"
       },
       {
-        "file": "ga4-channels-20261118-20261124-captured-20261125.csv",
-        "sha256": "7151a5b134290ac9ce0e3aad218d84053bb063af13f6957824d9126d6dd95a4e"
+        "file": "ga4-channels-20261119-20261125-captured-20261126.csv",
+        "sha256": "c3367ce8b8ebce229308d9de08f3de1630a9c7cf5b7aaae4ef61daa4e8ae2bf8"
       }
     ],
     "daily": [
@@ -5115,15 +5168,27 @@
           "Referral": 0
         },
         "organic_engaged": 10
+      },
+      {
+        "date": "2026-11-25",
+        "pv": 152,
+        "uv": 50,
+        "new_users": 39,
+        "channels": {
+          "Organic Search": 13,
+          "Direct": 36,
+          "Referral": 4
+        },
+        "organic_engaged": 8
       }
     ]
   },
   "search": {
-    "generated_at": "2026-11-25T14:07:38+08:00",
+    "generated_at": "2026-11-26T10:16:07+08:00",
     "baidu_status": {
       "status": "success",
-      "checked_at": "2026-11-25T10:32:31+08:00",
-      "last_successful_capture_at": "2026-11-25T02:31:41.354Z"
+      "checked_at": "2026-11-26T10:13:58+08:00",
+      "last_successful_capture_at": "2026-11-26T09:56:11.687+08:00"
     },
     "baidu_daily": [
       {
@@ -5285,6 +5350,16 @@
         "impressions": 0,
         "ctr": null,
         "captured_at": "2026-11-25T02:31:41.354Z"
+      },
+      {
+        "engine": "baidu",
+        "device": "pc",
+        "period": "day",
+        "date": "2026-11-25",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": null,
+        "captured_at": "2026-11-26T09:56:11.687+08:00"
       }
     ],
     "baidu_period_snapshots": [
@@ -5338,14 +5413,16 @@
       }
     ],
     "bing_status": {
-      "status": "pending_registration",
-      "checked_at": "2026-11-04T15:02:23+08:00"
+      "status": "manual_verified",
+      "checked_at": "2026-11-26T10:15:47+08:00",
+      "last_successful_capture_at": "2026-11-26T09:57:42.078+08:00",
+      "data_through": "2026-11-22"
     },
     "gsc_status": {
       "status": "success",
-      "checked_at": "2026-11-25T14:07:25+08:00",
-      "last_successful_capture_at": "2026-11-25T13:57:52.851+08:00",
-      "data_through": "2026-11-22"
+      "checked_at": "2026-11-26T10:13:58+08:00",
+      "last_successful_capture_at": "2026-11-26T10:06:44.079+08:00",
+      "data_through": "2026-11-23"
     },
     "gsc": {
       "mode": "official_browser_export",
@@ -5406,7 +5483,7 @@
           "impressions": 32,
           "ctr": 0.125,
           "position": 7.1,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-11",
@@ -5414,7 +5491,7 @@
           "impressions": 40,
           "ctr": 0.15,
           "position": 5.4,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-12",
@@ -5422,7 +5499,7 @@
           "impressions": 38,
           "ctr": 0.10526315789473684,
           "position": 5.2,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-13",
@@ -5430,7 +5507,7 @@
           "impressions": 15,
           "ctr": 0.2,
           "position": 7.5,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-14",
@@ -5438,7 +5515,7 @@
           "impressions": 6,
           "ctr": 0.16666666666666666,
           "position": 7.0,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-15",
@@ -5446,7 +5523,7 @@
           "impressions": 22,
           "ctr": 0.045454545454545456,
           "position": 3.3,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-16",
@@ -5454,7 +5531,7 @@
           "impressions": 27,
           "ctr": 0.2222222222222222,
           "position": 4.4,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-17",
@@ -5462,7 +5539,7 @@
           "impressions": 30,
           "ctr": 0.1,
           "position": 5.1,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-18",
@@ -5470,7 +5547,7 @@
           "impressions": 43,
           "ctr": 0.023255813953488372,
           "position": 5.6,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-19",
@@ -5478,7 +5555,7 @@
           "impressions": 43,
           "ctr": 0.023255813953488372,
           "position": 6.5,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-20",
@@ -5486,7 +5563,7 @@
           "impressions": 32,
           "ctr": 0.03125,
           "position": 5.8,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-21",
@@ -5494,7 +5571,7 @@
           "impressions": 23,
           "ctr": 0.0,
           "position": 5.4,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         },
         {
           "date": "2026-11-22",
@@ -5502,7 +5579,15 @@
           "impressions": 56,
           "ctr": 0.05357142857142857,
           "position": 7.5,
-          "captured_at": "2026-11-25T13:57:52.851+08:00"
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
+        },
+        {
+          "date": "2026-11-23",
+          "clicks": 3,
+          "impressions": 162,
+          "ctr": 0.018518518518518517,
+          "position": 8.0,
+          "captured_at": "2026-11-26T10:06:44.079+08:00"
         }
       ]
     },
