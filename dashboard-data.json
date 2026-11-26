@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T10:16:07+08:00",
+  "generated_at": "2026-11-26T10:24:39+08:00",
   "site_url": "https://www.linkcrux.com/",
   "search_incidents": [
     {
@@ -45,7 +45,7 @@
   "time_policy": {
     "timezone": "Asia/Shanghai",
     "statistics_through": "2026-11-25",
-    "default_period": 14,
+    "default_period": 7,
     "rolling_days": [
       7,
       14,
@@ -5184,7 +5184,7 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-26T10:16:07+08:00",
+    "generated_at": "2026-11-26T10:24:39+08:00",
     "baidu_status": {
       "status": "success",
       "checked_at": "2026-11-26T10:13:58+08:00",
