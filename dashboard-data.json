@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T20:27:32+08:00",
+  "generated_at": "2026-11-28T14:15:12+08:00",
   "site_url": "https://www.linkcrux.com/",
   "search_incidents": [
     {
@@ -432,9 +432,9 @@
       "unit": "sessions",
       "sync_status": {
         "status": "failed",
-        "checked_at": "2026-11-27T20:26:47+08:00",
+        "checked_at": "2026-11-28T13:48:51+08:00",
         "last_successful_capture_at": "2026-11-26T10:02:11.426+08:00",
-        "target_date": "2026-11-26",
+        "target_date": "2026-11-27",
         "failure_kind": "browser_unavailable",
         "data_through": "2026-11-25"
       },
@@ -4296,9 +4296,9 @@
     "scheduled_collection": true,
     "sync_status": {
       "status": "failed",
-      "checked_at": "2026-11-27T20:26:47+08:00",
+      "checked_at": "2026-11-28T13:48:51+08:00",
       "last_successful_capture_at": "2026-11-26T10:02:50.529+08:00",
-      "target_date": "2026-11-26",
+      "target_date": "2026-11-27",
       "failure_kind": "browser_unavailable",
       "data_through": "2026-11-25"
     },
@@ -5184,12 +5184,12 @@
     ]
   },
   "search": {
-    "generated_at": "2026-11-27T20:27:32+08:00",
+    "generated_at": "2026-11-28T14:15:12+08:00",
     "baidu_status": {
       "status": "failed",
-      "checked_at": "2026-11-27T20:26:47+08:00",
+      "checked_at": "2026-11-28T13:48:51+08:00",
       "last_successful_capture_at": "2026-11-26T09:56:11.687+08:00",
-      "target_date": "2026-11-26",
+      "target_date": "2026-11-27",
       "failure_kind": "browser_unavailable",
       "data_through": "2026-11-25"
     },
@@ -5423,7 +5423,7 @@
     },
     "gsc_status": {
       "status": "failed",
-      "checked_at": "2026-11-27T20:26:47+08:00",
+      "checked_at": "2026-11-28T13:48:51+08:00",
       "last_successful_capture_at": "2026-11-26T10:06:44.079+08:00",
       "failure_kind": "browser_unavailable",
       "data_through": "2026-11-23"
